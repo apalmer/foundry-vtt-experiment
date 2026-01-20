@@ -1,0 +1,301 @@
+﻿{
+    "_id":  "OnKre5S1YouumZp5",
+    "name":  "Overmind",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/overmind.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  10
+                                             },
+                                     "dex":  {
+                                                 "value":  15
+                                             },
+                                     "con":  {
+                                                 "value":  18
+                                             },
+                                     "int":  {
+                                                 "value":  18
+                                             },
+                                     "wis":  {
+                                                 "value":  14
+                                             },
+                                     "cha":  {
+                                                 "value":  16
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  17,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  180,
+                                                 "max":  180,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "19d10 + 76"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  0,
+                                                       "fly":  20,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  true,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  120,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  11,
+                                   "xp":  {
+                                              "value":  7200
+                                          },
+                                   "type":  {
+                                                "value":  "aberration",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Lawful Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "charmed",
+                                                           "frightened",
+                                                           "prone"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "deep speech",
+                                                                  "undercommon"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ins":  {
+                                              "value":  1
+                                          },
+                                  "dec":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "arc":  {
+                                              "value":  1
+                                          },
+                                  "int":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eSix eyes float around the overmind and create their Eye Psionics effects. Each eye is an object that has AC 24, 1 hit point, and a psionic shield that makes it immune to damage. After an eye creates a psionic effect, it loses its psionic shield until the start of the overmind\u0027s next turn. If an eye is destroyed, a new eye pops out of the overmind\u0027s face to replace it at the end of their next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Detached Eyes",
+                      "_id":  "gA23au2PZaAshQoG"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d6",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "4",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Bite",
+                      "_id":  "eQbIJ39vBP7rhs4e"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe overmind creates three of the following psionic eye effects. Unless otherwise stated, each eye targets a creature who the overmind can see within 120 feet of them. They can\u0027t use the same effect twice in a turn.\n1. Charm Beam. The targeted creature must succeed on a DC 16 Wisdom saving throw or be charmed by the overmind for 1 hour, or until the overmind harms the creature or one of their allies.\n2. Compulsion Beam. The targeted creature must succeed on a DC 16 Intelligence saving throw or use their reaction, if available, to move up to their speed toward the closest ally they can see and make a weapon attack against them. Creatures who can\u0027t be charmed are unaffected.\n3. Toxic Vapors. The overmind chooses a point they can see within 120 feet of them. Each creature within 10 feet of the point must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute (save ends at end of turn).\n4. Telekinetic Beam. The targeted creature must succeed on a DC 16 Strength saving throw or be moved up to 30 feet in any direction and take 7 (2d6) force damage at the end of the move. Alternatively, the overmind can target an object they can see within 120 feet of them that weighs 300 pounds or less and isn\u0027t being worn or carried, moving it up to 30 feet in any direction. The overmind can also exert fine control on objects with this effect, such as manipulating a simple tool or opening a door or a container.\n5. Lightning Bolt. The overmind shoots a 5-foot-wide, 60-foot-long line of lightning. Each creature in the line must succeed on a DC 16 Dexterity saving throw, taking 21 (6d6) lightning damage on a failed save, or half as much damage on a successful one.\n6. Fire Beam. The targeted creature must make a DC 16 Dexterity saving throw. On a failed save, the target takes 36 (8d8) fire damage and catches fire, taking 9 (2d8) fire damage at the start of each of their turns for 1 minute (save ends at end of turn). Any creature can use their action to douse the fire, ending the effect early.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6",
+                                                                      "force"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  16,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Eye Psionics",
+                      "_id":  "TKRyautS5kRYEQEi"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "The Great Eye (Recharge 6)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "charges",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe overmind\u0027s central eye turns solid black and projects a 150-foot cone of energy. If the overmind or any creature in that area is affected by a spell, the spell\u0027s effects immediately end for that creature.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "7SxXqHKKmVWXyJFP"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Away with You! When a creature within 5 feet of the overmind hits them with a melee attack, the overmind can use Telekinetic Beam on the attacker",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003e\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "l2F1DhrvKvgWtXZ3"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Overmind",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/overmind.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Artillery",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

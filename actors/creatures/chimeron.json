@@ -1,0 +1,408 @@
+﻿{
+    "_id":  "EW2vh1wTiMWI3NIl",
+    "name":  "Chimeron",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/chimeron.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  24
+                                             },
+                                     "dex":  {
+                                                 "value":  12
+                                             },
+                                     "con":  {
+                                                 "value":  20
+                                             },
+                                     "int":  {
+                                                 "value":  16
+                                             },
+                                     "wis":  {
+                                                 "value":  14
+                                             },
+                                     "cha":  {
+                                                 "value":  12
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  17,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  230,
+                                                 "max":  230,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "20d12 + 100"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  30,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  120,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  12,
+                                   "xp":  {
+                                              "value":  8400
+                                          },
+                                   "type":  {
+                                                "value":  "fiend",
+                                                "subtype":  "Demon, Category 5",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Chaotic Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "huge",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "cold",
+                                                           "fire",
+                                                           "thunder"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "abyssal",
+                                                                  "common",
+                                                                  "telepathy 120 ft."
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "int":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhile the chimeron\u0027s soul count is 0, they have advantage on attack rolls, disadvantage on saving throws, and their Intelligence score becomes 3 (-4). Additionally, the chimeron must use their movement on each of their turns to move as close as possible to the nearest creature they can sense with their soulsight, and then if they are able, they must use their action to attack and attempt to kill that creature. The chimeron can\u0027t act with any other purpose until they add 1 to their soul count.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Lethe",
+                      "_id":  "RQxEYsJFId4PF6wn"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the chimeron reduces a creature who isn\u0027t a Construct or an Undead to 0 hit points or deals damage to a dying creature, the creature must make a DC 11 Wisdom saving throw. On a failed save, the chimeron consumes the creature\u0027s soul and adds 1 to the chimeron\u0027s soul count. A creature whose soul is consumed in this way immediately dies, and they can\u0027t be restored to life by any means short of a wish spell.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Soul Devourer",
+                      "_id":  "FLdKfakCK4Zai9vV"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhile the chimeron\u0027s soul count is 2 or higher, they have advantage on saving throws against powers, spells, and other supernatural effects.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Soul Resistance",
+                      "_id":  "WlhIqs2zswmg6kXE"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe chimeron makes up to three attacks using Powerful Bite, Scorching Bite, Booming Bite, or Chilling Bite. They can\u0027t use any attack more than once.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "6GBP6iEH6JQd8ySd"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d8 + 7",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "11",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Powerful Bite",
+                      "_id":  "0u5CdwMAeaATKw2P"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d8 + 7",
+                                                                      "piercing"
+                                                                  ],
+                                                                  [
+                                                                      "2d8",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 11 (1d8 + 7) piercing damage plus 9 (2d8) fire damage, and the target is set on fire until the target or a creature who can reach them uses an action to extinguish the flames. A creature who is on fire at the start of their turn takes 7 (2d6) fire damage. If a creature who is already on fire is set on fire again on a subsequent turn, the damage isn\u0027t cumulative.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "11",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Scorching Bite",
+                      "_id":  "3Y3psnvQl5T4ezjP"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d8 + 7",
+                                                                      "piercing"
+                                                                  ],
+                                                                  [
+                                                                      "2d8",
+                                                                      "thunder"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 11 (1d8 + 7) piercing damage plus 9 (2d8) thunder damage, and the target is knocked prone.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "11",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Booming Bite (Costs 1 Soul)",
+                      "_id":  "VHfWSiK7UFz8d8zc"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d8 + 7",
+                                                                      "piercing"
+                                                                  ],
+                                                                  [
+                                                                      "2d8",
+                                                                      "cold"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 11 (1d8 + 7) piercing damage plus 9 (2d8) cold damage, the target\u0027s speed is halved until the end of their next turn, and they can only make one attack during their next turn.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "11",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Chilling Bite (Costs 1 Soul)",
+                      "_id":  "mn0TxdqSB1FsrmPs"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Pain Absorption (Costs 1 Soul)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the chimeron takes damage, they reduce the damage taken by 16 (3d10).\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "UqJ5oF8BmnsHopPX"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Chimeron",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/chimeron.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  3,
+                           "height":  3,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Brute",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

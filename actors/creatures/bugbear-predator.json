@@ -1,0 +1,331 @@
+﻿{
+    "_id":  "Y6sx9IcHS6ZazoYl",
+    "name":  "Bugbear Predator",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/bugbear-predator.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  15
+                                             },
+                                     "dex":  {
+                                                 "value":  17
+                                             },
+                                     "con":  {
+                                                 "value":  15
+                                             },
+                                     "int":  {
+                                                 "value":  13
+                                             },
+                                     "wis":  {
+                                                 "value":  15
+                                             },
+                                     "cha":  {
+                                                 "value":  11
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  14,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  65,
+                                                 "max":  65,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "10d8 + 20"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  3,
+                                   "xp":  {
+                                              "value":  700
+                                          },
+                                   "type":  {
+                                                "value":  "humanoid",
+                                                "subtype":  "Bugbear",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Any Alignment",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "goblin"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ste":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "sur":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eAllied Humanoids within 15 feet of the predator who can see or hear them have advantage on Wisdom and Charisma saving throws.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Bugbear\u0027s Inspiration",
+                      "_id":  "oO3kJQCuCR5Op4jG"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the predator hits a creature with a melee weapon attack and has advantage on the attack roll, the target must succeed on a DC 12 Constitution saving throw or be blinded until the end of their next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Dirty Fighting",
+                      "_id":  "3xOLpgk8stC6uvJI"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe predator makes two Curved Dagger or two Longbow attacks. If both attacks hit the same target, the predator has advantage on their next attack roll made against the target before the end of the predator\u0027s next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "HN1vxLAIP4sdY8ss"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d4 + 3",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (2d4 + 3) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "5",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  60,
+                                                   "value":  20
+                                               }
+                                 },
+                      "name":  "Curved Dagger",
+                      "_id":  "KsbS8nwoxoJwawYy"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d8 + 3",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "5",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  600,
+                                                   "value":  150
+                                               }
+                                 },
+                      "name":  "Longbow",
+                      "_id":  "YpEINPtaT3QrkSg5"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Go for the Eyes",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eEach ally within 30 feet of the predator who can hear and understand them gains the predator\u0027s Dirty Fighting trait until the start of the predator\u0027s next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "LGmKwkvOjH4v2tak"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Guerilla Training",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe predator takes the Dash or Hide action.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "L5XWSnIQLPkTJMZc"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Bugbear Predator",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/bugbear-predator.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Ambusher",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

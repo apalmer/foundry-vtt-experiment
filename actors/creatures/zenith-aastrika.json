@@ -1,0 +1,473 @@
+﻿{
+    "_id":  "Mnstyb7Rb5wu6ygE",
+    "name":  "Zenith Aastrika",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/zenith-aastrika.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  25
+                                             },
+                                     "dex":  {
+                                                 "value":  16
+                                             },
+                                     "con":  {
+                                                 "value":  23
+                                             },
+                                     "int":  {
+                                                 "value":  10
+                                             },
+                                     "wis":  {
+                                                 "value":  23
+                                             },
+                                     "cha":  {
+                                                 "value":  14
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  18,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  225,
+                                                 "max":  225,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "18d12 + 108"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  50,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  12,
+                                   "xp":  {
+                                              "value":  8400
+                                          },
+                                   "type":  {
+                                                "value":  "giant",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Lawful Neutral",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "huge",
+                                  "di":  {
+                                             "value":  "fire"
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "charmed",
+                                                           "frightened"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "giant",
+                                                                  "primordial"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen Aastrika fails a saving throw, she can choose to succeed instead. When she does so, she can\u0027t use Sweltering Heat until the end of her next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Battle Tranquility (3/Day)",
+                      "_id":  "OMSmi3o04YMrvDHC"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe first time a creature other than a fire giant touches Aastrika or hits her with a melee attack on a turn, that creature takes 7 (2d6) fire damage.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Molten Flesh",
+                      "_id":  "qc4LpA3LAj5k24cO"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eAastrika takes the Disengage action and makes up to three attacks using Unarmed Strike, Hurl Flame, or both.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "5hbnbykhw2Ztxqn2"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d6 + 7",
+                                                                      "bludgeoning"
+                                                                  ],
+                                                                  [
+                                                                      "2d6",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) bludgeoning damage plus 7 (2d6) fire damage. If the target is a creature, they are outlined in red light until the start of Aastrika\u0027s next turn, and for the duration, attack rolls against them have advantage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "11",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Unarmed Strike",
+                      "_id":  "OO9k2RfB2Zrr2prp"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Hurl Flame",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d6 + 6",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Spell Attack: +10 to hit, range 180 ft., one target. Hit: 20 (4d6 + 6) fire damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "10",
+                                     "actionType":  "rsak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  180
+                                               }
+                                 },
+                      "_id":  "Nvdi8kvKXAdMhZeP"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eAastrika causes a 20-foot-radius, 60-foot-high cylinder of lava to erupt from the ground at a point she can see within 120 feet of her. Each creature in that area must make a DC 18 Dexterity saving throw, taking 38 (11d6) fire damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "charges",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "11d6",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  18,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Lava Pillar (Recharge 5-6)",
+                      "_id":  "blyGM3IBPBKydV2S"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Sweltering Heat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eAastrika\u0027s inner flame pulses harshly. Each creature within 20 feet of her who doesn\u0027t have resistance or immunity to fire damage must succeed on a DC 18 Constitution saving throw or gain a level of exhaustion.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "save":  {
+                                                  "dc":  18,
+                                                  "ability":  "con",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "WnexRIYHaBg9ZUhq"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Power of Flame",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen another fire giant Aastrika can see within 60 feet of her misses with a weapon attack, Aastrika causes flame to trail from the attacker. The attacker rolls damage for the attack as if they had hit, and the target takes half that amount as fire damage instead of taking the full amount of normal damage.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "1hFq0wDQRcYoEI7N"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 1: Forward! Aastrika and up to three creatures she can see can move up to their speed without provoking opportunity attacks and make one melee attack each",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003e\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "QcwLwYSCcKqW7vHm"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 2: The Manifold Self",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eAastrika disappears in a flash of light and teleports, reappearing in an unoccupied space she can see within 30 feet of her. At the same time, five fire giant troopers appear in unoccupied spaces within 30 feet of the space she teleported from. The troopers act immediately after this villain action is taken and on the same initiative count in subsequent rounds.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "Zk6b9n2ZcSxtWfEs"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 3: This",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eEnds. Now. Aastrika and each willing fire giant within 60 feet of her unleashes a burst of heat. Each creature within 10 feet of Aastrika or one of these fire giants must make a DC 18 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "10d10",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  18,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "kKPcxlKBOQvAarwc"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Zenith Aastrika",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/zenith-aastrika.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  3,
+                           "height":  3,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Leader",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

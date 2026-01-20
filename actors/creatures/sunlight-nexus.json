@@ -1,0 +1,328 @@
+﻿{
+    "_id":  "Y57NC0DXOnvqgj3L",
+    "name":  "Sunlight Nexus",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/sunlight-nexus.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  20
+                                             },
+                                     "dex":  {
+                                                 "value":  15
+                                             },
+                                     "con":  {
+                                                 "value":  19
+                                             },
+                                     "int":  {
+                                                 "value":  14
+                                             },
+                                     "wis":  {
+                                                 "value":  16
+                                             },
+                                     "cha":  {
+                                                 "value":  20
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  18,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  152,
+                                                 "max":  152,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "16d10 + 64"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  40,
+                                                       "fly":  90,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  12,
+                                   "xp":  {
+                                              "value":  8400
+                                          },
+                                   "type":  {
+                                                "value":  "elemental",
+                                                "subtype":  "Air, Fire",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Any Alignment",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  "poison"
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "fire",
+                                                           "radiant"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "charmed",
+                                                           "exhaustion",
+                                                           "frightened",
+                                                           "poisoned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "primordial"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ins":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "int":  {
+                                              "value":  1
+                                          },
+                                  "rel":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe nexus sheds bright sunlight in a 120-foot radius and dim light for another 120 feet.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Corona",
+                      "_id":  "6dBA7927l33ZtxFs"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe nexus makes three Solar Arc attacks. They can replace one attack with a use of Heavenly Collapse or Rejuvenating Flare, if available.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "T1qjwoWY8xeo5U2h"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Solar Arc",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d12 + 5",
+                                                                      "radiant"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Spell Attack: +9 to hit, reach 5 ft. or range 30 ft., one target. Hit: 18 (2d12 + 5) radiant damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "rsak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  30
+                                               }
+                                 },
+                      "_id":  "PuNl2eKux9NKZOl0"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Heavenly Collapse",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe nexus shines harsh light on an enemy they can see within 60 feet of them. Each ally of the nexus within 5 feet of the target regains 20 hit points, and the target must succeed on a DC 17 Constitution saving throw or lose any damage resistances they have and be blinded for 1 minute (save ends at end of turn).\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  2,
+                                                  "max":  "2"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "save":  {
+                                                  "dc":  17,
+                                                  "ability":  "con",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "U6Z0iUWYnCr0hb9T"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Rejuvenating Flare",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eOne ally the nexus can see within 30 feet of them is bathed in rejuvenating light. The ally regains 27 (5d10) hit points, and if they are charmed, dazed, frightened, or poisoned, those conditions end for them.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "yrFO1qdSQUdRBWpo"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Convocation of Sunlight",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe nexus imbues the power of sunlight in themself or another Elemental they can see within 30 feet of them, granting one of the following effects of that Elemental\u0027s choice:\n- Healing Radiance. The Elemental regains 30 hit points. Until the end of the nexus\u0027s next turn, the Elemental refracts shimmering light, and creatures within 10 feet of them who aren\u0027t Elementals are blinded.\n- Protective Light. Four brilliant motes orbit the Elemental for 1 minute. When the Elemental deals damage to a creature with an attack, the Elemental can extinguish one mote (no action required) to deal an extra 14 (4d6) radiant damage to that creature.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  2,
+                                                  "max":  "2"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d6",
+                                                                      "radiant"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "_id":  "HRT24HFZGbQFmhZP"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Sunlight Nexus",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/sunlight-nexus.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Support",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

@@ -1,0 +1,301 @@
+﻿{
+    "_id":  "NGwhMK966ZD8io0D",
+    "name":  "Force of Iron",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/force-of-iron.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  21
+                                             },
+                                     "dex":  {
+                                                 "value":  10
+                                             },
+                                     "con":  {
+                                                 "value":  25
+                                             },
+                                     "int":  {
+                                                 "value":  11
+                                             },
+                                     "wis":  {
+                                                 "value":  13
+                                             },
+                                     "cha":  {
+                                                 "value":  12
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  19,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  150,
+                                                 "max":  150,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "12d10 + 84"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  60,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  30,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  10,
+                                   "xp":  {
+                                              "value":  5900
+                                          },
+                                   "type":  {
+                                                "value":  "elemental",
+                                                "subtype":  "Earth, Fire",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Any Alignment",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  "poison"
+                                         },
+                                  "dr":  {
+                                             "value":  "fire"
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "exhaustion",
+                                                           "frightened",
+                                                           "petrified",
+                                                           "poisoned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "ignan",
+                                                                  "terran"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe force of iron uses Form Stance then makes three Ferrous Greatblade attacks or three Iron Spike attacks.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "P2X8HeIhkBCyMwQn"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d6 + 5",
+                                                                      "slashing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +9 to hit, reach 5 ft. (20 ft. in Polearm Form), one target. Hit: 19 (4d6 + 5) slashing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Ferrous Greatblade",
+                      "_id":  "MX4ZeYAVHkdek5ez"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d8 + 5",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Weapon Attack: +9 to hit, range 30/60 ft., one target. Hit: 14 (2d8 + 5) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  60,
+                                                   "value":  30
+                                               }
+                                 },
+                      "name":  "Iron Spike",
+                      "_id":  "4i0jzhOr06d9va7t"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe force of iron shapes their body to gain one of the following benefits until the start of their next turn:\n- Polearm Form. The force of iron\u0027s melee attacks have a reach of 20 feet instead of 5 feet.\n- Reckless Form. The force of iron has advantage on all melee attack rolls, but attack rolls against the force of iron have advantage.\n- Shield Form. The force of iron gains a +3 bonus to AC.\n- Fire Form (1/Day). The force of iron\u0027s attacks deal an extra 13 (2d12) fire damage on a hit.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d12",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "name":  "Form Stance",
+                      "_id":  "d7krgFp60fl2I1wj"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Convocation of Iron",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe force of iron imbues the power of iron in themself or another Elemental they can see within 30 feet of them, granting one of the following effects of that Elemental\u0027s choice:\n- Earth Reinforcements. Five earth sparks appear in unoccupied spaces within 20 feet of the Elemental. The sparks understand the Elemental, follow their verbal commands, and act immediately after the Elemental in the initiative order.\n- Iron Skin. Metal covers the Elemental, granting them resistance to bludgeoning, piercing, and slashing damage for 1 minute or until their concentration is broken (as if concentrating on a spell).\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "mokrbYoSuT3wwTlx"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Force of Iron",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/force-of-iron.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Brute",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

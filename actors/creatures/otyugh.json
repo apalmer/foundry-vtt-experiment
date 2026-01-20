@@ -1,0 +1,427 @@
+﻿{
+    "_id":  "tAJ2LMJldQz0mrNU",
+    "name":  "Otyugh",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/otyugh.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  16
+                                             },
+                                     "dex":  {
+                                                 "value":  11
+                                             },
+                                     "con":  {
+                                                 "value":  19
+                                             },
+                                     "int":  {
+                                                 "value":  6
+                                             },
+                                     "wis":  {
+                                                 "value":  13
+                                             },
+                                     "cha":  {
+                                                 "value":  6
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  14,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  85,
+                                                 "max":  85,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "9d10 + 36"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  45,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  5,
+                                   "xp":  {
+                                              "value":  1800
+                                          },
+                                   "type":  {
+                                                "value":  "aberration",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Neutral",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "acid",
+                                                           "poison"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  "poisoned"
+                                         },
+                                  "languages":  {
+                                                    "value":  "otyugh",
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh has seven adjustable appendages, which they can convert into other appendages using their Transform bonus action. In their natural state, the otyugh has one eyestalk, three legs, and three tentacles. These appendages grant the following benefits:\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Adjustable Appendages",
+                      "_id":  "niew1l2uxcX3HXXh"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh\u0027s first eyestalk gives them darkvision out to a range of 60 feet and immunity to the flanked condition, and each additional eyestalk increases their darkvision\u0027s range by 60 feet. If the otyugh has no eyestalks, they are blinded and lose immunity to the flanked condition.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Eyestalks",
+                      "_id":  "gQWrUUyWdOwj3SBM"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eEach leg gives the otyugh a cumulative walking speed of 15 feet.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Legs",
+                      "_id":  "k4uH3CEiyv9evRTa"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh\u0027s number of tentacles determine how many attacks they can make with Multiattack and how many creatures they can grapple with Tentacle Slam.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Tentacles",
+                      "_id":  "4diBfbW9fXB7xqg6"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh can magically transmit simple messages and images to any creature within 120 feet of them that can understand a language. This form of telepathy doesn\u0027t allow the receiving creature to telepathically respond.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Limited Telepathy",
+                      "_id":  "RBTYpgSrEuDhYilh"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eAt the start of each of the otyugh\u0027s turns, each creature grappled by the otyugh has their hit point maximum reduced by 5 (1d10) for 1 hour. The otyugh regains the same number of hit points. This effect can\u0027t reduce a creature\u0027s hit point maximum below their current hit points.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Rot Leech",
+                      "_id":  "zXyaeY8ao4dmX8UA"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh ignores difficult terrain. They also have advantage on Dexterity (Stealth) checks made to hide in piles of refuse.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Trash Traversal",
+                      "_id":  "o46nPBnk2XyM5ODY"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eA creature who starts their turn within 10 feet of the otyugh must succeed on a DC 15 Constitution saving throw or be poisoned until the start of the creature\u0027s next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Vile Stench",
+                      "_id":  "PzmWYsBcd9xBY820"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh makes one Tentacle Slam attack for each tentacle they currently have (see Adjustable Appendages).\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "ew9MremfuABQcPbo"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d8 + 3",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (4d8 + 3) piercing damage, and the target must succeed on a DC 15 Constitution saving throw or be diseased with otyuck. A creature with otyuck can\u0027t take the Dash action and their speed is halved.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "6",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Bite",
+                      "_id":  "L222dBC4rdCI0jfd"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d8 + 3",
+                                                                      "bludgeoning"
+                                                                  ],
+                                                                  [
+                                                                      "1d6",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 3 (1d6) piercing damage. If the target is Medium or smaller, they are grappled (escape DC 13) and restrained until the grapple ends. The otyugh can grapple one target for each tentacle they currently have.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "6",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Tentacle Slam",
+                      "_id":  "d0gKAx0ka5r5au4e"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Transform",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh converts one of their Adjustable Appendages into an eyestalk, leg, or tentacle.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "n25EfylOSaCQVmCW"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Otyugh",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/otyugh.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Controller",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

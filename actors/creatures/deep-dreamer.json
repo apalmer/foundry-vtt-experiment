@@ -1,0 +1,261 @@
+﻿{
+    "_id":  "KgVrFooS1uwQmgtx",
+    "name":  "Deep Dreamer",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/deep-dreamer.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  17
+                                             },
+                                     "dex":  {
+                                                 "value":  10
+                                             },
+                                     "con":  {
+                                                 "value":  16
+                                             },
+                                     "int":  {
+                                                 "value":  20
+                                             },
+                                     "wis":  {
+                                                 "value":  12
+                                             },
+                                     "cha":  {
+                                                 "value":  16
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  17,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  178,
+                                                 "max":  178,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "21d10 + 63"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  0,
+                                                       "fly":  20,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  true,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  120,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  13,
+                                   "xp":  {
+                                              "value":  10000
+                                          },
+                                   "type":  {
+                                                "value":  "plant",
+                                                "subtype":  "Fungus",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Neutral",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  "psychic"
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "charmed",
+                                                           "frightened",
+                                                           "prone"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "deep speech",
+                                                                  "undercommon",
+                                                                  "telepathy 120 ft."
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "dec":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "ins":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe dreamer is immune to divination spells and to any effect that would sense their emotions or read their thoughts.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Psionic Shroud",
+                      "_id":  "Db8LP3IDRkSDQtSk"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe dreamer makes two Tendrils attacks and uses Dream Spores, if available.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "V9OIi3eyntpQhuVQ"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Power Attack: +10 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 22 (4d10) psychic damage. If the target is charmed by the dreamer, the dreamer regains hit points equal to half the psychic damage dealt.\n\n*Dream Spores (5th-Order Power; Recharge 5-6). The dreamer releases a cloud of psionic spores. Each creature within 60 feet of them must succeed on a DC 18 Intelligence saving throw or be charmed by the dreamer for 1 minute. While charmed in this way, a creature must use their movement during their turn to move within 10 feet of the dreamer by the safest available route.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 5",
+                                                                      "slashing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  18,
+                                                  "ability":  "int",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Tendrils",
+                      "_id":  "jqb5UG4yZa2Pg1Tu"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Rouse Dreamer",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen a creature makes an attack against the dreamer, the dreamer chooses a creature charmed by the dreamer within the attack\u0027s range, and the charmed creature becomes the target of the attack instead.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "63U4eo29l268PLIa"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Deep Dreamer",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/deep-dreamer.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Controller",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

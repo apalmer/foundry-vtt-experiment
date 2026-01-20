@@ -1,0 +1,191 @@
+﻿{
+    "_id":  "D5u1MJetjl4PCj1T",
+    "name":  "Abyssal Hyena Companion",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/abyssal-hyena-companion.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  16
+                                             },
+                                     "dex":  {
+                                                 "value":  14
+                                             },
+                                     "con":  {
+                                                 "value":  12
+                                             },
+                                     "int":  {
+                                                 "value":  5
+                                             },
+                                     "wis":  {
+                                                 "value":  12
+                                             },
+                                     "cha":  {
+                                                 "value":  8
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  13,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  7,
+                                                 "max":  7,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "number of d8 Hit Dice equal to their caregiver\u0027s level"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  50,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  0,
+                                   "xp":  {
+                                              "value":  0
+                                          },
+                                   "type":  {
+                                                "value":  "fiend",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Unaligned",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  null,
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 plus PB piercing damage.\n\n1st Level: Unbalancing Attack (2 Ferocity). The hyena makes a signature attack. On a hit, the target also has disadvantage on the next Strength or Dexterity saving throw they make before the start of their next turn.\n\n3rd Level: Gobbling Bite (5 Ferocity). The hyena makes a signature attack with advantage. On a hit, the attack deals an extra PB necrotic damage, and the hyena regains hit points equal to the necrotic damage dealt.\n\n5th Level: Cackle (8 Ferocity). Each enemy within 30 feet of the hyena who can hear them must succeed on a DC 10 plus PB Wisdom saving throw or take PBd4 psychic damage and be frightened of the hyena until the start of the hyena\u0027s next turn.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "3 + @prof",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Signature Attack (Bite)",
+                      "_id":  "KDa9yyqW16AD18np"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Blood Frenzy (Recharges after a Short or Long Rest)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the hyena\u0027s caregiver is hit with an attack and the hyena is within 5 feet of the attacker, the hyena can make a signature attack against the attacker.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "rmwUpO4uNVxjyvyJ"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Abyssal Hyena Companion",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/abyssal-hyena-companion.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "",
+                                              "category":  "Companion",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

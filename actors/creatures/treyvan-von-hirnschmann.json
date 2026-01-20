@@ -1,0 +1,356 @@
+﻿{
+    "_id":  "10yAOgRDMbw9Wp9k",
+    "name":  "Treyvan von Hirnschmann",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/treyvan-von-hirnschmann.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  22
+                                             },
+                                     "dex":  {
+                                                 "value":  8
+                                             },
+                                     "con":  {
+                                                 "value":  18
+                                             },
+                                     "int":  {
+                                                 "value":  11
+                                             },
+                                     "wis":  {
+                                                 "value":  14
+                                             },
+                                     "cha":  {
+                                                 "value":  22
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  18,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  102,
+                                                 "max":  102,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "12d8 + 48"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  5,
+                                   "xp":  {
+                                              "value":  1800
+                                          },
+                                   "type":  {
+                                                "value":  "humanoid",
+                                                "subtype":  "Half-Elf",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Neutral Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "elvish",
+                                                                  "telepathy 120 ft."
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "rel":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eTreyvan has advantage on saving throws he makes to avoid or end the charmed condition on himself.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Charm Resistant",
+                      "_id":  "HuYcvgIHoKB6Ds0e"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eTreyvan can communicate telepathically with any Amethyst Knife boss regardless of distance, provided they are on the same plane of existence.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Mind Link",
+                      "_id":  "GyaXRwoaen0w7aok"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eEach ally within 20 feet of Treyvan has a +2 bonus to AC and Dexterity saving throws. Enemies treat the area within 20 feet of Treyvan as difficult terrain.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Telekinetic Bastion",
+                      "_id":  "LdXz6Smbls7NWIlw"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eTreyvan makes two Maul attacks. He can replace one attack with a use of Telekinetic Throw or Choke, if available.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "SEE1Gt5VxUiFyGJH"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 6",
+                                                                      "bludgeoning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage. If the target is Medium or smaller, Treyvan can choose to either knock them prone or push them up to 10 feet away from him.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Maul",
+                      "_id":  "tBvDYLcgqHB3Yxtg"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eTreyvan throws his maul with telekinetic force, making a Maul attack with a range of 30 feet. After making this attack, the maul immediately returns to Treyvan\u0027s hands.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Telekinetic Throw",
+                      "_id":  "3SNB7I2yujgxFOUB"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eTreyvan telekinetically crushes one Large or smaller creature he can see within 30 feet of him. The target must succeed on a DC 17 Dexterity saving throw or be restrained for 1 minute (save ends at end of turn). While restrained in this way, the target takes 14 (4d6) force damage at the start of each of their turns. If the target is ever more than 30 feet away from Treyvan or has total cover from him, the power ends early.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d6",
+                                                                      "force"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  17,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Choke (2/Day; 5th-Order Power; Concentration)",
+                      "_id":  "XF3SnjFZ2SfwKgmN"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Shared Condition",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen Treyvan is blinded, charmed, dazed, deafened, frightened, paralyzed, or stunned, he chooses a willing Amethyst Knife boss within 60 feet of him who doesn\u0027t already have the condition or is immune to it. The chosen creature then gains the condition for the duration, and Treyvan loses the condition. He can use this reaction even while incapacitated.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "hIgv4QdQQp04dzWP"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Treyvan von Hirnschmann",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/treyvan-von-hirnschmann.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Soldier",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

@@ -1,0 +1,412 @@
+﻿{
+    "_id":  "QdYuCtFxs9Po80ID",
+    "name":  "Queen Bargnot",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/queen-bargnot.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  10
+                                             },
+                                     "dex":  {
+                                                 "value":  17
+                                             },
+                                     "con":  {
+                                                 "value":  13
+                                             },
+                                     "int":  {
+                                                 "value":  14
+                                             },
+                                     "wis":  {
+                                                 "value":  12
+                                             },
+                                     "cha":  {
+                                                 "value":  13
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  17,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  54,
+                                                 "max":  54,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "12d6 + 12"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  20,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  3,
+                                   "xp":  {
+                                              "value":  700
+                                          },
+                                   "type":  {
+                                                "value":  "humanoid",
+                                                "subtype":  "Goblin",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Neutral Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "sm",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "goblin"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ste":  {
+                                              "value":  1
+                                          },
+                                  "ins":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "int":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eQueen Bargnot doesn\u0027t provoke opportunity attacks when she moves out of an enemy\u0027s reach.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Crafty",
+                      "_id":  "JniglaLQN2dlKRuc"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen Queen Bargnot fails a saving throw against a spell or other supernatural effect, she can choose a willing creature within 30 feet of her. Queen Bargnot succeeds on the saving throw, the creature is targeted with the same spell or effect as if they were in her space, and they fail their saving throw automatically.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Take My Pain (3/Day)",
+                      "_id":  "atcS5Rgmg99ff57i"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eQueen Bargnot makes three Shortsword attacks or two Shortbow attacks.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "N3pBVjIt8al5Bshk"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d6 + 3",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "5",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Shortsword",
+                      "_id":  "TtdJ5HrGFDgSUOeM"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d6 + 3",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "5",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  320,
+                                                   "value":  80
+                                               }
+                                 },
+                      "name":  "Shortbow",
+                      "_id":  "DoBdedJuWsT3pbrs"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Get In Here",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eQueen Bargnot shouts for aid and 1d4 goblin lackeys appear in unoccupied spaces within 60 feet of her.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "jjphPbCPQBZV8n6d"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "No Dying! When an ally Queen Bargnot can see within 30 feet of her is reduced to 0 hit points, they are reduced to 1 hit point instead",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003e\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "rjEKvRIalNqbLhnA"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 1: What Are You Waiting For?! Each ally within 60 feet of Queen Bargnot who can hear her can move up to their speed or make a melee weapon attack (no action required)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003e\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "feHUie6QGKosDvlT"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 2: Focus Fire",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eQueen Bargnot chooses an enemy she can see within 60 feet of her. Queen Bargnot and each ally within 60 feet of her who can hear her can move up to their speed toward the target.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "wGBAvAv6fk02Up0L"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 3: Kill! Each ally within 60 feet of Queen Bargnot who can hear her can make a weapon attack with advantage (no action required)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIf the attack hits, it deals an extra 3 (1d6) damage.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "2gPVjhVeAA8t9QI3"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Queen Bargnot",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/queen-bargnot.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Leader",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

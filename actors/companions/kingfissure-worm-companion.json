@@ -1,0 +1,220 @@
+﻿{
+    "_id":  "dWoYRjkXnX1mFweC",
+    "name":  "Kingfissure Worm Companion",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/kingfissure-worm-companion.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  16
+                                             },
+                                     "dex":  {
+                                                 "value":  8
+                                             },
+                                     "con":  {
+                                                 "value":  14
+                                             },
+                                     "int":  {
+                                                 "value":  3
+                                             },
+                                     "wis":  {
+                                                 "value":  10
+                                             },
+                                     "cha":  {
+                                                 "value":  6
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  13,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  7,
+                                                 "max":  7,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "number of d8 Hit Dice equal to their caregiver\u0027s level"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  30,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  30,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  60,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  0,
+                                   "xp":  {
+                                              "value":  0
+                                          },
+                                   "type":  {
+                                                "value":  "monstrosity",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Unaligned",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  null,
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 plus PB acid damage.\n\n1st Level: Distracting Attack (2 Ferocity). The worm makes a signature attack. On a hit, the attack deals its normal effects, and the next attack roll made against the target before the start of the worm\u0027s next turn has advantage.\n\n3rd Level: Tongue Grab (5 Ferocity). The worm makes a signature attack. On a hit, the target is also grappled (escape DC 10 plus PB). Until this grapple ends, the target is restrained and the worm can\u0027t make a signature attack against another target.\n\n5th Level: Swallow (8 Ferocity). The worm attempts to swallow a Medium or smaller creature within 5 feet of them. The target must make a DC 10 plus PB Dexterity saving throw. On a failed save, the target takes PBd6 bludgeoning damage and is swallowed. On a successful save, the target takes half as much damage and isn\u0027t swallowed. The worm can have only one target swallowed at a time.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "3 + @prof",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Signature Attack (Tongue Lash)",
+                      "_id":  "hgurVagE7GRoRzIp"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhenever the worm takes damage, they must succeed on a Constitution saving throw or regurgitate the swallowed creature, who falls prone in an unoccupied space within 5 feet of the worm. The DC for this saving throw equals 10 or half the triggering damage, whichever is higher. If the worm is incapacitated or dies, a swallowed creature is no longer restrained by the worm and can escape from the corpse using 5 feet of movement, exiting prone.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "A swallowed target is blinded and restrained, they have total cover against attacks and other effects outside the worm, and they take PBd6 acid damage at the start of each of the worm\u0027s turns",
+                      "_id":  "9CgwkohwQnebzu3r"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Item Storage",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe worm can swallow an object without harming it by storing the object in a second stomach. They can use this bonus action again to regurgitate a specific stored object without disturbing any other objects in their second stomach. A regurgitated object lands in an unoccupied space within 5 feet of the worm.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "9HuO2CMvqAD5J7rK"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Kingfissure Worm Companion",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/kingfissure-worm-companion.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "",
+                                              "category":  "Companion",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

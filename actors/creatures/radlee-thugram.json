@@ -1,0 +1,366 @@
+﻿{
+    "_id":  "PlJBrOwSiEdsUsBz",
+    "name":  "Radlee Thugram",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/radlee-thugram.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  24
+                                             },
+                                     "dex":  {
+                                                 "value":  16
+                                             },
+                                     "con":  {
+                                                 "value":  15
+                                             },
+                                     "int":  {
+                                                 "value":  11
+                                             },
+                                     "wis":  {
+                                                 "value":  16
+                                             },
+                                     "cha":  {
+                                                 "value":  12
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  18,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  130,
+                                                 "max":  130,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "20d8 + 40"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  60,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  7,
+                                   "xp":  {
+                                              "value":  2900
+                                          },
+                                   "type":  {
+                                                "value":  "humanoid",
+                                                "subtype":  "Human",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Neutral Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  "common",
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "int":  {
+                                              "value":  1
+                                          },
+                                  "sur":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen Radlee makes an attack, she has advantage on the attack roll.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Exploit Opening (3/Day)",
+                      "_id":  "Eq5U7ZRsXLRYscZc"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRadlee has advantage on saving throws against being moved against her will or knocked prone.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Sure-Footed",
+                      "_id":  "QkPRnNQaKCz7kY5e"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRadlee has advantage on initiative checks. While she isn\u0027t incapacitated, Radlee and each ally within 30 feet of her who can see or hear her can\u0027t be surprised.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Tactical Vigilance",
+                      "_id":  "yZ1nLEpUaNFZicM6"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRadlee makes three Halberd or three Longbow attacks. Alternatively, she makes one Halberd attack and uses Backswipe.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "BCuorMH070fpMBL6"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d10 + 7",
+                                                                      "slashing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 12 (1d10 + 7) slashing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "10",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Halberd",
+                      "_id":  "f03AXS2FJSDdnA3D"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d8 + 3",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "6",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  600,
+                                                   "value":  150
+                                               }
+                                 },
+                      "name":  "Longbow",
+                      "_id":  "KMjT1RyBeJT93dNc"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRadlee swings her halberd\u0027s shaft at a creature within 5 feet of her. The target must succeed on a DC 18 Strength saving throw or take 16 (3d10) bludgeoning damage and be knocked prone.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d10",
+                                                                      "bludgeoning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  18,
+                                                  "ability":  "str",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Backswipe",
+                      "_id":  "n2vsA7x9d1uwpYHX"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Protector",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen a creature Radlee can see within 10 feet of her attacks one of her allies, Radlee can make a Halberd attack against the attacker.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "hNBhH0wsmr7R4Z1X"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Radlee Thugram",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/radlee-thugram.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Soldier",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

@@ -1,0 +1,378 @@
+﻿{
+    "_id":  "kDTNpP2NgAwoMyRH",
+    "name":  "Argan Rael",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/argan-rael.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  9
+                                             },
+                                     "dex":  {
+                                                 "value":  20
+                                             },
+                                     "con":  {
+                                                 "value":  12
+                                             },
+                                     "int":  {
+                                                 "value":  24
+                                             },
+                                     "wis":  {
+                                                 "value":  10
+                                             },
+                                     "cha":  {
+                                                 "value":  13
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  15,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  104,
+                                                 "max":  104,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "19d8 + 19"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  7,
+                                   "xp":  {
+                                              "value":  2900
+                                          },
+                                   "type":  {
+                                                "value":  "humanoid",
+                                                "subtype":  "Tiefling",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Chaotic Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "fire",
+                                                           "necrotic"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "infernal"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "inv":  {
+                                              "value":  1
+                                          },
+                                  "his":  {
+                                              "value":  1
+                                          },
+                                  "arc":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eArgan has advantage on saving throws against spells and other magical effects.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Magic Resistance",
+                      "_id":  "EiBHvdm0s2RCnBQs"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eDamage from Argan\u0027s spell attacks ignore the target\u0027s damage resistances.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Pervasive Magic",
+                      "_id":  "xcZmmiqyo0C384PI"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eArgan makes three Arcane Lance attacks.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "5UTxm7lX4SbQ15Qj"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Arcane Lance (Cantrip)",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "5d6",
+                                                                      "force"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Spell Attack: +10 to hit, reach 5 ft. or range 90 ft., one target. Hit: 17 (5d6) force damage, and Argan moves the target up to 15 feet horizontally.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "10",
+                                     "actionType":  "rsak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  90
+                                               }
+                                 },
+                      "_id":  "48WszfnTR8xe9wLp"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eArgan calls down lightning on up to three creatures he can see within 30 feet of him. Each target must make a DC 18 Constitution saving throw. On a failed save, a target takes 21 (6d6) lightning damage and their speed is halved until the end of their next turn. On a successful save, a target takes half as much damage and their speed is not halved.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "6d6",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  18,
+                                                  "ability":  "con",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Lightning Volley (3rd-Level Spell)",
+                      "_id":  "0zzysrj8MCetZYTO"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eArgan sculpts a fiery explosion centered on a point within 90 feet of him. Each creature of his choice in a 20-foot-radius sphere centered on that point must make a DC 18 Dexterity saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "12d6",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  18,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Fireball (1/Day; 7th-Level Spell)",
+                      "_id":  "fjRY22aBnIfFwvGB"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Misty Step (2/Day; 2nd-Level Spell)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eArgan teleports up to 30 feet to an unoccupied space he can see.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "3yWN28uyMBswit8Q"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Spellcasting (Utility)",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIn addition to any other spells in this stat block, Argan can cast the following spells, using Intelligence as his spellcasting ability (spell save DC 18): At will: dancing lights, mage hand, message, prestidigitation 2/day each: detect magic, mage armor, sending\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "_id":  "dgBMaDRRy6H9WBSJ"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Argan Rael",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/argan-rael.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Artillery",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

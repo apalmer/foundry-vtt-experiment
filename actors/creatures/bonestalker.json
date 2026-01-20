@@ -1,0 +1,369 @@
+﻿{
+    "_id":  "oHdch97vurqq9oXu",
+    "name":  "Bonestalker",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/bonestalker.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  10
+                                             },
+                                     "dex":  {
+                                                 "value":  18
+                                             },
+                                     "con":  {
+                                                 "value":  12
+                                             },
+                                     "int":  {
+                                                 "value":  11
+                                             },
+                                     "wis":  {
+                                                 "value":  14
+                                             },
+                                     "cha":  {
+                                                 "value":  20
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  16,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  88,
+                                                 "max":  88,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "16d8 + 16"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  120,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  6,
+                                   "xp":  {
+                                              "value":  2300
+                                          },
+                                   "type":  {
+                                                "value":  "fey",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Chaotic Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  "psychic"
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "charmed",
+                                                           "frightened"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "sylvan"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ste":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "ins":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe bonestalker starts with 5 (2d4) skulls, which they can destroy to fuel their actions and reactions. Choose or roll a d4 to determine each skull\u0027s creature type: 1, Beast; 2, Fey; 3, Humanoid; 4, Monstrosity.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Bones of the Lost",
+                      "_id":  "6ajuD1mKiVrLlh2Q"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhile the bonestalker possesses at least one skull, they have advantage on saving throws against powers, spells, and other supernatural effects.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Skull Resistance",
+                      "_id":  "jsAekP44R2zCRbSI"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe bonestalker makes two Touch of the Felled or two Scream of the Forsaken attacks, and they can use Grief of the Bygone.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "oyS3YXApumKspP07"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Touch of the Felled",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 5",
+                                                                      "necrotic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) necrotic damage. The bonestalker can destroy a Humanoid or Monstrosity skull to deal an extra 10 (3d6) psychic damage to the target.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "8",
+                                     "actionType":  "msak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "_id":  "RwdaPabiBSS5ELL7"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Scream of the Forsaken",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d6 + 5",
+                                                                      "psychic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Spell Attack: +8 to hit, range 60 ft., one target. Hit: 15 (3d6 + 5) psychic damage. The bonestalker can destroy a Fey skull to force the target to make a DC 16 Wisdom saving throw. On a failed save, the target is frightened of the bonestalker until the start of the bonestalker\u0027s next turn.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "8",
+                                     "actionType":  "rsak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  60
+                                               }
+                                 },
+                      "_id":  "QQ9u4az4DYBv14YQ"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe bonestalker destroys two skulls of any type, creating a 15-foot-radius sphere of magical darkness centered on a point they can see within 60 feet of them. The darkness spreads around corners and lasts for 1 minute. A creature with darkvision can\u0027t see through this darkness, and mundane light can\u0027t illuminate it. The bonestalker is unaffected by the darkness and has advantage on attack rolls against creatures in the darkness. Any creature who starts their turn in the darkness must make a DC 16 Wisdom saving throw, taking 14 (4d6) psychic damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d6",
+                                                                      "psychic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  16,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Grief of the Bygone",
+                      "_id":  "K1Ss286c5lh4f5nw"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Power from the Conquered",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the bonestalker is hit by an attack, they can destroy a Beast skull to become invisible until the end of their next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "1TFe7s6DlSkMIywS"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Spellcasting (Utility)",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIn addition to any other spells in this stat block, the bonestalker can cast the following spells, using Charisma as the spellcasting ability (spell save DC 16): At will: minor illusion 3/day: silent image\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "_id":  "9wR7v4jynfiUkpCg"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Bonestalker",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/bonestalker.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Ambusher",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

@@ -1,0 +1,393 @@
+﻿{
+    "_id":  "5mlhMtZu5mLk3bX5",
+    "name":  "Sea Hag",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/sea-hag.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  12
+                                             },
+                                     "dex":  {
+                                                 "value":  16
+                                             },
+                                     "con":  {
+                                                 "value":  16
+                                             },
+                                     "int":  {
+                                                 "value":  12
+                                             },
+                                     "wis":  {
+                                                 "value":  14
+                                             },
+                                     "cha":  {
+                                                 "value":  16
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  15,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  45,
+                                                 "max":  45,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "6d8 + 18"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  60,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  2,
+                                   "xp":  {
+                                              "value":  450
+                                          },
+                                   "type":  {
+                                                "value":  "fey",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Neutral Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "cold",
+                                                           "lightning"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "aquan",
+                                                                  "common",
+                                                                  "sylvan"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ste":  {
+                                              "value":  1
+                                          },
+                                  "dec":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "int":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe hag can breathe both air and water.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Amphibious",
+                      "_id":  "tSHAsPn5Ppap6GG5"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eA sea hag in a coven gains the following action option.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Sea Hag in a Coven",
+                      "_id":  "APGlJbJWoioZmTzo"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe hag conjures magical seaweed and fish guts to restrain their foes. Each enemy in a 30-foot cone emanating from the hag must make a DC 13 Dexterity saving throw. On a failed save, a target takes 13 (3d8) bludgeoning damage and is restrained until the end of the hag\u0027s next turn. On a successful save, a target takes half as much damage and isn\u0027t restrained.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Grasping Detritus (Recharge 5-6)",
+                      "_id":  "Ab81Ice5lDT8hZLc"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe hag makes one Lightning Strike attack and uses Dry Drowning.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "vr1ae3W7Ggppxip2"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Lightning Strike",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d6",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 120 ft., one target. Hit: 10 (3d6) lightning damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "5",
+                                     "actionType":  "rsak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  120
+                                               }
+                                 },
+                      "_id":  "bAyBb3Vd5NZ8F1Yz"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe hag chooses a creature they can see within 120 feet of them, making the target feel as though their lungs are filling with water. The target must succeed on a DC 13 Wisdom saving throw or be dazed until the start of the hag\u0027s next turn. A creature who can breathe water or who doesn\u0027t need air automatically succeeds on this saving throw.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "save":  {
+                                                  "dc":  13,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Dry Drowning",
+                      "_id":  "spGSu01uDVwSiqIn"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Sea Storm (1/Day; 3rd-Level Spell; Concentration)",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe hag creates a roiling storm with a 60-foot radius centered on themself that moves with them and lasts for 1 minute. The hag has advantage on Lightning Strike attacks against targets in that area, and those attacks deal an extra 3 (1d6) lightning damage.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d6",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "_id":  "FVffGvnU2xoM5q7F"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Fearsome Glare",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen a creature the hag can see within 30 feet of them hits the hag with an attack, that creature must succeed on a DC 13 Wisdom saving throw or be frightened of the hag until the end of the hag\u0027s next turn.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "save":  {
+                                                  "dc":  13,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "j5yXKMQp7jxbhSly"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Spellcasting (Utility)",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIn addition to any other spells in this stat block, the hag can cast the following spells, using Charisma as the spellcasting ability (spell save DC 13): At will: create or destroy water, disguise self 3/day each: control water, identify 1/day each: clairvoyance, legend lore\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "_id":  "AkxYjVpLszvtzxSq"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Sea Hag",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/sea-hag.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Artillery",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

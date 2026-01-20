@@ -1,0 +1,608 @@
+﻿{
+    "_id":  "ubGyc9kpJ2XzZyZn",
+    "name":  "Goxomoc",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/goxomoc.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  30
+                                             },
+                                     "dex":  {
+                                                 "value":  11
+                                             },
+                                     "con":  {
+                                                 "value":  30
+                                             },
+                                     "int":  {
+                                                 "value":  22
+                                             },
+                                     "wis":  {
+                                                 "value":  26
+                                             },
+                                     "cha":  {
+                                                 "value":  16
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  23,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  574,
+                                                 "max":  574,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "28d20 + 280"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  50,
+                                                       "fly":  0,
+                                                       "swim":  50,
+                                                       "climb":  50,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  300,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  30,
+                                   "xp":  {
+                                              "value":  155000
+                                          },
+                                   "type":  {
+                                                "value":  "monstrosity",
+                                                "subtype":  "Titan",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Neutral",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "grg",
+                                  "di":  {
+                                             "value":  [
+                                                           "bludgeoning",
+                                                           "fire",
+                                                           "lightning",
+                                                           "piercing",
+                                                           "poison",
+                                                           "slashing",
+                                                           "thunder"
+                                                       ]
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "blinded",
+                                                           "charmed",
+                                                           "frightened",
+                                                           "paralyzed",
+                                                           "petrified",
+                                                           "poisoned",
+                                                           "stunned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "understands all languages but can\u0027t speak",
+                                                                  "telepathy 150 ft."
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "his":  {
+                                              "value":  1
+                                          },
+                                  "arc":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eGoxomoc can breathe air and water.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Amphibious",
+                      "_id":  "4JK64fOnBI9mCfTq"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eEnemies within 60 feet of Goxomoc can\u0027t fly, and when Goxomoc moves within 60 feet of a flying enemy, the enemy falls.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Earthbinder",
+                      "_id":  "ZG8EZwaaicwRgtxk"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIf Goxomoc is reduced to 0 hit points, he sheds his flesh form and becomes Xogomoc. Any conditions or other supernatural effects that were affecting Goxomoc continue affecting Xogomoc.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Lightning Lord",
+                      "_id":  "Q12buuJnHCsfujC2"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIf Goxomoc fails a saving throw, he can choose to succeed instead, and he can\u0027t use Energy Eyes or Shockwave until the end of his next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Psionic Resistance (3/Day)",
+                      "_id":  "nJThKglJAsimU20z"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eGoxomoc\u0027s weapon attacks are psionic.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Psionic Weapons",
+                      "_id":  "2blpFS8ROCmCYVcs"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eGoxomoc deals double damage to objects and structures.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Siege Monster",
+                      "_id":  "tE8PF9IrJCKCHLQw"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eGoxomoc makes one Bite attack, two Claw attacks, and one Stomp attack, and he uses Energy Eyes.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "QUuxtiELAmeLFAYJ"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d12 + 10",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 36 (4d12 + 10) piercing damage, and the target is grappled (escape DC 20). Until this grapple ends, the target is restrained and Goxomoc can\u0027t bite another target. If this damage reduces a creature to 0 hit points, they die and Goxomoc consumes their remains.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "19",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Bite",
+                      "_id":  "7DsTuz43PE6lP06x"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d10 + 10",
+                                                                      "slashing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) slashing damage, and Goxomoc moves the target up to 10 feet horizontally.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "19",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  15
+                                               }
+                                 },
+                      "name":  "Claw",
+                      "_id":  "Eej0gkODblWtw8nc"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d12 + 10",
+                                                                      "bludgeoning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +19 to hit, reach 15 ft., one target who isn\u0027t grappled by Goxomoc. Hit: 23 (2d12 + 10) bludgeoning damage, and if the target is Huge or smaller, they are knocked prone.\n\n*Energy Eyes (3rd-Order Power). Goxomoc beams energy from his eyes at a creature he can see within 300 feet of him. The target must make a DC 25 Dexterity saving throw, taking 22 (4d10) fire or lightning damage (Goxomoc\u0027s choice) on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "19",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  15
+                                               }
+                                 },
+                      "name":  "Stomp",
+                      "_id":  "zfeo3srGpMqA0F3V"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eGoxomoc breathes lightning in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw. On a failed save, a creature takes 71 (11d12) fire or lightning damage (Goxomoc\u0027s choice) and is teleported to an unoccupied space of Goxomoc\u0027s choice within that area. On a successful save, a creature takes half as much damage and isn\u0027t teleported.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "charges",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "save":  {
+                                                  "dc":  27,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Catastrophic Breath (Recharge 5-6)",
+                      "_id":  "zbfZg4BSU0hrVOZh"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Volcanic Punishment",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen Goxomoc takes damage, he teleports along with any creatures he is grappling in a burst of lava to an unoccupied space he can see within 30 feet of him. Each creature within 10 feet of the space he left must make a DC 27 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d10",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  27,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "T5baIXKePlvU8RXS"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 1: Rumble",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eGoxomoc stomps the ground, unleashing a wave of debilitating psionic energy. Mundane objects within 90 feet of Goxomoc that aren\u0027t being worn or carried take 55 (10d10) force damage. Creatures within 90 feet of Goxomoc are knocked prone and must succeed on a DC 27 Dexterity saving throw or be restrained and embedded in the ground. A creature can use an action to make a DC 20 Strength (Athletics) or Dexterity (Acrobatics) check, freeing themself or another creature within their reach on a success.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "10d10",
+                                                                      "force"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  27,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "kaCoMJZvyJQ61sdQ"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 2: Thunder",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eGoxomoc disappears in a crack of thunder, along with any creatures he is grappling, and reappears in an unoccupied space he can see within 120 feet of him. Each creature within 30 feet of either the space he left or his new space must make a DC 27 Constitution saving throw, taking 22 (4d10) thunder damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d10",
+                                                                      "thunder"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  27,
+                                                  "ability":  "con",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "Le4XU0qkbLjPo3px"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 3: Eruption",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eGoxomoc unleashes a psionic scream of anguish in the mind of enemies within 120 feet of him. Each target must make a DC 25 Wisdom saving throw. On a failed save, a creature takes 44 (8d10) psychic damage and then becomes vulnerable to all damage dealt by Goxomoc until the end of his next turn. On a successful save, a creature takes half as much damage and does not become vulnerable to damage.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "8d10",
+                                                                      "psychic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  25,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "Cy1bSCVYq8VuwXmk"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Goxomoc",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/goxomoc.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  4,
+                           "height":  4,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Solo",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

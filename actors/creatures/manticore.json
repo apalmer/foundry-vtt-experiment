@@ -1,0 +1,343 @@
+﻿{
+    "_id":  "bAyAshn52w80biFR",
+    "name":  "Manticore",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/manticore.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  18
+                                             },
+                                     "dex":  {
+                                                 "value":  16
+                                             },
+                                     "con":  {
+                                                 "value":  16
+                                             },
+                                     "int":  {
+                                                 "value":  10
+                                             },
+                                     "wis":  {
+                                                 "value":  12
+                                             },
+                                     "cha":  {
+                                                 "value":  7
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  13,
+                                                 "calc":  "natural",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  76,
+                                                 "max":  76,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "9d10 + 27"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  50,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  3,
+                                   "xp":  {
+                                              "value":  700
+                                          },
+                                   "type":  {
+                                                "value":  "monstrosity",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Neutral",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  "understands any one language but speaks only through the use of their mimicry trait",
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "ste":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the manticore hits a creature with an attack on the manticore\u0027s turn, the manticore doesn\u0027t provoke opportunity attacks from that creature for the rest of that turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Agile Predator",
+                      "_id":  "a6AdtCvmK6JcJ9rX"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe manticore can mimic any words or phrases they have heard in a language they understand. A creature who hears the speech can tell it is an imitation with a successful DC 10 Wisdom (Insight) check.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Mimicry",
+                      "_id":  "rI8ygaYeke8DWJ6u"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe manticore makes one Bite and one Claw attack, or two Tail Spike attacks.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "V4rcq5cBhZio4TPJ"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d8 + 4",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage. If the target is a creature who is frightened of the manticore, they take an extra 4 (1d8) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "6",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Bite",
+                      "_id":  "nwhHWuakUzgsyqVS"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d10 + 4",
+                                                                      "slashing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) slashing damage, and the manticore can move the target up to 5 feet horizontally.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "6",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Claw",
+                      "_id":  "8cjYxZBwqp2m5YnI"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d4 + 3",
+                                                                      "piercing"
+                                                                  ],
+                                                                  [
+                                                                      "1d6",
+                                                                      "poison"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Weapon Attack: +5 to hit, range 60/120 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (1d6) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of their next turn.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "5",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  120,
+                                                   "value":  60
+                                               }
+                                 },
+                      "name":  "Tail Spike",
+                      "_id":  "58RQY74MrZWCiaNg"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Trumpeting Howl",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eEach enemy within 120 feet who can hear the manticore must succeed on a DC 13 Wisdom saving throw or be frightened of the manticore for 1 minute (save ends at end of turn). If the initial saving throw fails by 5 or more, a creature is also dazed while frightened in this way.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "save":  {
+                                                  "dc":  13,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "3ZPqE03fHzwPOU2r"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Manticore",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/manticore.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Skirmisher",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

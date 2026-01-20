@@ -1,0 +1,371 @@
+﻿{
+    "_id":  "8uckJPjd4VfArFEU",
+    "name":  "Slaughter Demon",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/slaughter-demon.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  22
+                                             },
+                                     "dex":  {
+                                                 "value":  10
+                                             },
+                                     "con":  {
+                                                 "value":  20
+                                             },
+                                     "int":  {
+                                                 "value":  8
+                                             },
+                                     "wis":  {
+                                                 "value":  12
+                                             },
+                                     "cha":  {
+                                                 "value":  10
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  15,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  138,
+                                                 "max":  138,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "12d12 + 60"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  40,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  8,
+                                   "xp":  {
+                                              "value":  3900
+                                          },
+                                   "type":  {
+                                                "value":  "fiend",
+                                                "subtype":  "Demon, Category 3",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Chaotic Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "huge",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  "fire"
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "abyssal",
+                                                                  "goblin",
+                                                                  "infernal"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the demon\u0027s soul count is 0, they have advantage on attack rolls, disadvantage on saving throws, and their Intelligence score becomes 3 (-4). Additionally, the demon must use their movement on each of their turns to move as close as possible to the nearest creature they can sense with their soulsight, and then if they are able, they must use their action to attack and attempt to kill that creature. The demon can\u0027t act with any other purpose until they add 1 to their soul count.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Lethe",
+                      "_id":  "XO1119rBVp8hnFGj"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the demon reduces a creature who isn\u0027t a Construct or an Undead to 0 hit points or deals damage to a dying creature, the creature must make a DC 11 Wisdom saving throw. On a failed save, the demon consumes the creature\u0027s soul and adds 1 to the demon\u0027s soul count. A creature whose soul is consumed in this way immediately dies, and they can\u0027t be restored to life by any means short of a wish spell.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Soul Devourer",
+                      "_id":  "n0KHs9FvXSrTzrTv"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe demon makes four attacks using Pincer, Sword, Javelin, or a combination of them. They can replace one of these attacks with a Tail Spike attack. The demon can burn 1 soul to make a fifth attack using Pincer, Sword, or Javelin.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "fLQR8NpVtNm61cLO"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 6",
+                                                                      "bludgeoning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage, and the target is grappled (escape DC 17). While grappled, the target is restrained. The demon has six pincers, each of which can grapple a target or wield a weapon.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Pincer",
+                      "_id":  "ENXv4mDhTC44nlzq"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d8 + 6",
+                                                                      "slashing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) slashing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Sword",
+                      "_id":  "92CAeUehkJGDopfp"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 6",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Weapon Attack: +9 to hit, reach 10 ft. or range 60/240 ft., one target. Hit: 13 (2d6 + 6) piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  240,
+                                                   "value":  60
+                                               }
+                                 },
+                      "name":  "Javelin",
+                      "_id":  "a8htyB3xrp4IqZzh"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d10 + 6",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 11 (1d10 + 6) piercing damage, and the target must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute (save ends at end of turn).\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  15
+                                               }
+                                 },
+                      "name":  "Tail Spike",
+                      "_id":  "s3w0trGkqCvVT2ik"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Dive Deep (Costs 1 Soul)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe demon takes the Disengage action and gains a burrowing speed equal to their walking speed until the end of their next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "sm2zjpY9jYaJX6gH"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Slaughter Demon",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/slaughter-demon.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  3,
+                           "height":  3,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Brute",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

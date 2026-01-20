@@ -1,0 +1,292 @@
+﻿{
+    "_id":  "1PGSPd3F6Mk6cpKy",
+    "name":  "Mummy",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/mummy.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  16
+                                             },
+                                     "dex":  {
+                                                 "value":  8
+                                             },
+                                     "con":  {
+                                                 "value":  16
+                                             },
+                                     "int":  {
+                                                 "value":  10
+                                             },
+                                     "wis":  {
+                                                 "value":  14
+                                             },
+                                     "cha":  {
+                                                 "value":  10
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  12,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  60,
+                                                 "max":  60,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "8d8 + 24"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  60,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  3,
+                                   "xp":  {
+                                              "value":  700
+                                          },
+                                   "type":  {
+                                                "value":  "undead",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Lawful Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  [
+                                                           "necrotic",
+                                                           "poison"
+                                                       ]
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "blinded",
+                                                           "charmed",
+                                                           "deafened",
+                                                           "exhaustion",
+                                                           "frightened",
+                                                           "poisoned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  "the languages they knew in life",
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "his":  {
+                                              "value":  1
+                                          },
+                                  "arc":  {
+                                              "value":  1
+                                          },
+                                  "rel":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhenever the mummy takes fire damage, they take an extra 5 (1d10) fire damage.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Flammable",
+                      "_id":  "QtrcXsAmfErrMsdr"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhenever the mummy takes piercing or slashing damage, each creature within 5 feet of them takes 4 (1d8) poison damage.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Mummy Dust",
+                      "_id":  "NW7RJqqGFq1D0tnt"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe mummy makes two Desiccating Slam attacks and uses Guardian Curse.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "qgZx7SefOuNZtuod"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 3",
+                                                                      "bludgeoning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. Until the start of the mummy\u0027s next turn, the target\u0027s speed is reduced by 10 feet and the target can\u0027t regain hit points.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "5",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Desiccating Slam",
+                      "_id":  "QjwOKS7ekzIIzkX8"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe mummy calls down a scourge on one creature they can see within 60 feet of them. The target must succeed on a DC 13 Wisdom saving throw or be cursed. While cursed in this way, whenever the target takes damage, they take an extra 3 (1d6) necrotic damage that can\u0027t be reduced in any way. The curse lasts until removed by a cure ailment power, a remove curse spell, or a similar supernatural effect. A target who succeeds on their saving throw is immune to the Guardian Curse of all mummies for the next 24 hours.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d6",
+                                                                      "necrotic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  13,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Guardian Curse",
+                      "_id":  "CWGyJXGsRbooo9xI"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Mummy",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/mummy.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Brute",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

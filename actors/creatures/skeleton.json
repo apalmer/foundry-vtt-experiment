@@ -1,0 +1,249 @@
+﻿{
+    "_id":  "csujVND3y0gHKljk",
+    "name":  "Skeleton",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/skeleton.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  10
+                                             },
+                                     "dex":  {
+                                                 "value":  15
+                                             },
+                                     "con":  {
+                                                 "value":  11
+                                             },
+                                     "int":  {
+                                                 "value":  9
+                                             },
+                                     "wis":  {
+                                                 "value":  13
+                                             },
+                                     "cha":  {
+                                                 "value":  4
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  14,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  13,
+                                                 "max":  13,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "3d8"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  0.25,
+                                   "xp":  {
+                                              "value":  50
+                                          },
+                                   "type":  {
+                                                "value":  "undead",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Lawful Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  "poison"
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "piercing",
+                                                           "slashing"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  [
+                                                           "bludgeoning",
+                                                           "force",
+                                                           "thunder"
+                                                       ]
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "exhaustion",
+                                                           "poisoned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  "the languages they knew in life",
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe skeleton\u0027s weapon attacks are magical. They use their bones as ammunition for their bone bow, regrowing used bones every dusk.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Bone Weapons",
+                      "_id":  "KxChCxvxxLtxLkxX"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIf the skeleton is reduced to 0 hit points by bludgeoning, force, or thunder damage, the skeleton is destroyed in an explosion of bone. Each creature within 5 feet of them takes 4 piercing damage.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Hail of Bones",
+                      "_id":  "agQLlxDyoYAqutXw"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 4 (1d4 + 2) piercing, and if the target regains hit points before the start of the skeleton\u0027s next turn, the number of hit points the target regains is halved.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "4",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  320,
+                                                   "value":  80
+                                               }
+                                 },
+                      "name":  "Bone Bow",
+                      "_id":  "5VQiVBXX5OhYMdS0"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d4 + 2",
+                                                                      "slashing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage. If the target is a creature, they have disadvantage on attack rolls until the end of this turn.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "4",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Bone Knife",
+                      "_id":  "uaub49xAKiAO9JRo"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Skeleton",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/skeleton.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Artillery",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

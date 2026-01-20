@@ -1,0 +1,218 @@
+﻿{
+    "_id":  "YxvuoNlmh3RlRVkf",
+    "name":  "Otyugh Companion",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/otyugh-companion.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  16
+                                             },
+                                     "dex":  {
+                                                 "value":  12
+                                             },
+                                     "con":  {
+                                                 "value":  15
+                                             },
+                                     "int":  {
+                                                 "value":  6
+                                             },
+                                     "wis":  {
+                                                 "value":  13
+                                             },
+                                     "cha":  {
+                                                 "value":  6
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  14,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  7,
+                                                 "max":  7,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "number of d8 Hit Dice equal to their caregiver\u0027s level"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  45,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  0,
+                                   "xp":  {
+                                              "value":  0
+                                          },
+                                   "type":  {
+                                                "value":  "aberration",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Unaligned",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "acid",
+                                                           "poison"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  "poisoned"
+                                         },
+                                  "languages":  {
+                                                    "value":  null,
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "sur":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh ignores difficult terrain. They have advantage on Dexterity (Stealth) checks made to hide in piles of refuse.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Trash Traversal",
+                      "_id":  "kOCZFl7iQfE2ZLvv"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 plus PB piercing damage.\n\n1st Level: Tentacle Slam (2 Ferocity). The otyugh makes a signature attack. On a hit, the target must also succeed on a DC 10 plus PB Strength saving throw or be grappled (escape DC 10 plus PB). The otyugh can only grapple one target at a time.\n\n3rd Level: Brutal Charge (5 Ferocity). The otyugh moves up to their speed without provoking opportunity attacks. During or after this move, they can make a signature attack against one target.\n\n5th Level: Retch (8 Ferocity). The otyugh regurgitates garbage in a 15-foot cone. Each creature in that area must make a DC 10 plus PB Constitution saving throw. On a failed save, a creature takes PBd6 poison damage and is poisoned. On a successful save, a creature takes half as much damage and isn\u0027t poisoned.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "3 + @prof",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Signature Attack (Bite)",
+                      "_id":  "ciPkruCI2oVxHSHz"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Slough Rot (Recharges after a Long Rest)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe otyugh touches their caregiver and ends one disease or one of the following conditions affecting the caregiver: blinded, dazed, deafened, paralyzed, or poisoned.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "9uH2I30RyOi9ngq5"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Otyugh Companion",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/otyugh-companion.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "",
+                                              "category":  "Companion",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

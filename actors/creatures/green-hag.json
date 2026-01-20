@@ -1,0 +1,377 @@
+﻿{
+    "_id":  "Y1b4YDEUXvjPbRBn",
+    "name":  "Green Hag",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/green-hag.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  12
+                                             },
+                                     "dex":  {
+                                                 "value":  16
+                                             },
+                                     "con":  {
+                                                 "value":  16
+                                             },
+                                     "int":  {
+                                                 "value":  14
+                                             },
+                                     "wis":  {
+                                                 "value":  15
+                                             },
+                                     "cha":  {
+                                                 "value":  18
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  16,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  75,
+                                                 "max":  75,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "10d8 + 30"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  30,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  3,
+                                   "xp":  {
+                                              "value":  700
+                                          },
+                                   "type":  {
+                                                "value":  "fey",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Neutral Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  "poison"
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  "poisoned"
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "primordial",
+                                                                  "sylvan"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ste":  {
+                                              "value":  1
+                                          },
+                                  "dec":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "arc":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eEach ally within 30 feet of the hag deals an extra 3 (1d6) poison damage with weapon attacks, provided the hag isn\u0027t incapacitated.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Envenom",
+                      "_id":  "gkpFxInc3Btpl7KQ"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe hag makes one Poison Claw attack and uses Granny Says.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "SY2MN2RYJpWkITJB"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d10 + 3",
+                                                                      "slashing"
+                                                                  ],
+                                                                  [
+                                                                      "1d6",
+                                                                      "poison"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage plus 3 (1d6) poison damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "5",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Poison Claw",
+                      "_id":  "XvGKdgYWxDWNE6c3"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe hag affects one other willing creature they can see within 30 feet of them with one of the following effects:\n- The target magically switches places with the hag.\n- The target uses their reaction, if available, to make an attack.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Granny Says",
+                      "_id":  "YHng2CSGZiVW6xaK"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe hag chooses a creature they can see within 60 feet of them and attempts to transform them into a Beast of the hag\u0027s choice with a challenge rating of 2 or lower. The target must succeed on a DC 14 Wisdom saving throw or be transformed for 1 minute (save ends at end of turn). While transformed, the target\u0027s game statistics are replaced by the statistics of the chosen Beast, though they retain their alignment, personality, and Intelligence, Wisdom, and Charisma scores. The target\u0027s gear melds into the new form. They can\u0027t activate, use, wield, or otherwise benefit from any of their equipment. They can\u0027t speak or cast spells but can take any action the Beast can take. If the target drops to 0 hit points while in this form, they revert back to their original form with half the number of hit points they had before they transformed.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "save":  {
+                                                  "dc":  14,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Naughty Mousey (3/Day; 5th-Level Spell; Concentration)",
+                      "_id":  "EJ1QbNfPjkur1NJz"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eLong toxic vines whip out from the hag. Each enemy within 30 feet of the hag must make a DC 14 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. Each ally within 30 feet of the hag regains 18 (4d8) hit points.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "charges",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d8",
+                                                                      "poison"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  14,
+                                                  "ability":  "con",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Green Hag in a Coven: Noxious Vines (Recharge 5-6)",
+                      "_id":  "dnZL0vUBT2PMzP6d"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Get Gone",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen an ally within 30 feet of the hag is targeted with an attack, the hag can turn the target invisible until the start of the target\u0027s next turn, potentially imposing disadvantage on the triggering attack roll and causing it to miss. To use this reaction, the hag must be able to see the ally and the attacker.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "adl65gKaYIUHupbj"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Spellcasting (Utility)",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIn addition to any other spells in this stat block, the hag can cast the following spells, using Charisma as the spellcasting ability (spell save DC 14): At will: alter self, dancing lights, minor illusion 3/day each: animal messenger, legend lore, speak with animals 1/day: scrying\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "_id":  "QmEfGnTnU20e8mGj"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Green Hag",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/green-hag.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Support",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

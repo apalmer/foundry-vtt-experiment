@@ -1,0 +1,218 @@
+﻿{
+    "_id":  "ZcdWyq2QBmWQkHZT",
+    "name":  "Shambling Mound Companion",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/shambling-mound-companion.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  16
+                                             },
+                                     "dex":  {
+                                                 "value":  8
+                                             },
+                                     "con":  {
+                                                 "value":  14
+                                             },
+                                     "int":  {
+                                                 "value":  5
+                                             },
+                                     "wis":  {
+                                                 "value":  10
+                                             },
+                                     "cha":  {
+                                                 "value":  5
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  13,
+                                                 "calc":  "natural",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  7,
+                                                 "max":  7,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "number of d8 Hit Dice equal to their caregiver\u0027s level"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  60,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  0,
+                                   "xp":  {
+                                              "value":  0
+                                          },
+                                   "type":  {
+                                                "value":  "plant",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Unaligned",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  "poison"
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "blinded",
+                                                           "poisoned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  null,
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "per":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhile the mound remains motionless, they are indistinguishable from an ordinary mass of vegetation. If the mound\u0027s caregiver is Large or smaller, they can use the Hide action to attempt to hide in the same space as their motionless mound.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "False Appearance",
+                      "_id":  "PlBGa1DVU1aYexPf"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 plus PB piercing damage.\n\n1st Level: Long-Range Lash (2 Ferocity). The mound makes a signature attack with a reach of 30 feet instead of 5 feet. If this attack hits a Medium or smaller creature, the mound can pull the target up to 10 feet toward the mound.\n\n3rd Level: Verdant Roundup (5 Ferocity). The mound targets up to PB creatures within 30 feet of them who are Large or smaller. Each target must succeed on a DC 10 plus PB Dexterity saving throw or be pulled up to 15 feet toward the mound and take PBd4 poison damage.\n\n5th Level: Engulf (8 Ferocity). The mound attempts to pull a Large or smaller creature within 5 feet of them into their body. The target must make a DC 10 plus PB Strength saving throw. On a failure, the target is pulled into the mound\u0027s space, takes PBd8 poison damage, and is engulfed. On a success, a creature takes half as much damage, doesn\u0027t move, and isn\u0027t engulfed.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "3 + @prof",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Signature Attack (Vine Lash)",
+                      "_id":  "jaZCDIWGk0C45wO9"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the mound moves, the engulfed creature moves with them. An engulfed creature can try to escape by taking an action to make a DC 10 plus PB Strength check. On a success, that creature is freed and shunted to an unoccupied space of their choice within 5 feet of the mound.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "An engulfed creature is restrained, has total cover against attacks and other effects outside the mound, and takes PBd8 poison damage at the start of each of the mound\u0027s turns",
+                      "_id":  "ghP6b0mDGFLmVjCc"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Shambling Mound Companion",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/shambling-mound-companion.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "",
+                                              "category":  "Companion",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

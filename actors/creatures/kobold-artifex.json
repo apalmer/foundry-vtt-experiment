@@ -1,0 +1,364 @@
+﻿{
+    "_id":  "fJyTNQbKfoLEFchB",
+    "name":  "Kobold Artifex",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/kobold-artifex.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  14
+                                             },
+                                     "dex":  {
+                                                 "value":  10
+                                             },
+                                     "con":  {
+                                                 "value":  10
+                                             },
+                                     "int":  {
+                                                 "value":  15
+                                             },
+                                     "wis":  {
+                                                 "value":  10
+                                             },
+                                     "cha":  {
+                                                 "value":  11
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  15,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  49,
+                                                 "max":  49,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "14d6"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  2,
+                                   "xp":  {
+                                              "value":  450
+                                          },
+                                   "type":  {
+                                                "value":  "humanoid",
+                                                "subtype":  "Kobold",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Any Alignment",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "sm",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "draconic"
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "ath":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eTo benefit from this trait, the artifex must be wielding a shield.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Shield? Shield! The artifex gains a +1 bonus to AC while within 5 feet of at least one ally who also has this trait, is wielding a shield, and isn\u0027t incapacitated or prone",
+                      "_id":  "C5CvaAUas8E96wl4"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe artifex makes one Chain Hook attack and uses Activate Trap, if available.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "AkRQZGgRup8dWicy"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d4 + 2",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Weapon Attack: +4 to hit, range 15/30 ft., one target. Hit: 4 (1d4 + 2) piercing damage, and if the target is a Large or smaller creature, they must succeed on a DC 12 Strength saving throw or be pulled up to 15 feet toward the artifex.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "4",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  30,
+                                                   "value":  15
+                                               }
+                                 },
+                      "name":  "Chain Hook",
+                      "_id":  "YqCbZawTguJXgM9g"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Activate Trap",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  3,
+                                                  "max":  "3"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe artifex activates one of the following hidden traps; the artifex can\u0027t use the same trap two rounds in a row:\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "E62fl8pOjjA7pL4T"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe artifex chooses a point on the ground that they can see within 60 feet of them, opening a concealed 15-foot-square trapdoor on the ground centered on that point to reveal a 10-foot-deep pit trap lined with spikes. Creatures on the ground in the trapdoor\u0027s area must make a DC 12 Dexterity saving throw. On a failed save, a creature falls into the pit and takes 3 (1d6) piercing damage from the spikes and 3 (1d6) bludgeoning damage from the fall. On a successful save, a creature moves to the nearest unoccupied space outside that area.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "1d6",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  12,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Spiky Pit Trap",
+                      "_id":  "vpakwMPuiSFqvH9A"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe artifex chooses a point on the ground that they can see within 60 feet of them, causing a buried canister to erupt and release a 15-foot-radius, 10-foot-high cylinder of swarming bees. When a creature enters the swarm\u0027s area for the first time on a turn or starts their turn there, they must make a DC 12 Constitution saving throw. On a failed save, a creature takes 5 (2d4) poison damage and is poisoned until the end of their next turn. On a successful save, a creature takes half as much damage and isn\u0027t poisoned. At the start of each of the artifex\u0027s turns, the swarm moves 10 feet away from the artifex in a straight line. The swarm disperses after 1 minute or when the artifex dies.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d4",
+                                                                      "poison"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  12,
+                                                  "ability":  "con",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Swarm of Bees Trap",
+                      "_id":  "aH6mpdLyvESxyYAl"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe artifex chooses a point on the ground that they can see within 60 feet of them, igniting a concealed trench of oil and creating a 20-foot long, 15-foot high, and 1-foot-thick wall of fire. When the wall appears, each creature within its area must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. A creature who enters the wall for the first time on a turn or ends their turn there takes 7 (2d6) fire damage. The wall is opaque and lasts for 1 minute.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  12,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Wall of Fire Trap",
+                      "_id":  "X9FzRMti0rUvmTQB"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Kobold Artifex",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/kobold-artifex.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Controller",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

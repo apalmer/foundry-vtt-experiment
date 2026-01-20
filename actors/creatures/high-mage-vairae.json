@@ -1,0 +1,624 @@
+﻿{
+    "_id":  "3A4q9RYvb00Af8o3",
+    "name":  "High Mage Vairae",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/high-mage-vairae.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  14
+                                             },
+                                     "dex":  {
+                                                 "value":  19
+                                             },
+                                     "con":  {
+                                                 "value":  16
+                                             },
+                                     "int":  {
+                                                 "value":  23
+                                             },
+                                     "wis":  {
+                                                 "value":  20
+                                             },
+                                     "cha":  {
+                                                 "value":  20
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  21,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  315,
+                                                 "max":  315,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "42d8 + 126"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  50,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  true,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  120,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  25,
+                                   "xp":  {
+                                              "value":  75000
+                                          },
+                                   "type":  {
+                                                "value":  "undead",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Neutral Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  [
+                                                           "necrotic",
+                                                           "poison"
+                                                       ]
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "bludgeoning",
+                                                           "cold",
+                                                           "fire",
+                                                           "piercing",
+                                                           "slashing"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "charmed",
+                                                           "exhaustion",
+                                                           "frightened",
+                                                           "paralyzed",
+                                                           "poisoned",
+                                                           "stunned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "abyssal",
+                                                                  "common",
+                                                                  "draconic",
+                                                                  "elvish",
+                                                                  "infernal",
+                                                                  "sylvan",
+                                                                  "telepathy 120 ft."
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "ath":  {
+                                              "value":  1
+                                          },
+                                  "dec":  {
+                                              "value":  1
+                                          },
+                                  "his":  {
+                                              "value":  1
+                                          },
+                                  "arc":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIf Vairae fails a saving throw, they can choose to succeed instead. When they do, Vairae has disadvantage on spell attacks until the end of their next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Draining Resistance (3/Day)",
+                      "_id":  "7swVCpDiNBtGvg3w"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eVairae has the Rejuvenation trait found in the lich stat block.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Rejuvenation",
+                      "_id":  "MG90x1CzNYCfxJTu"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eVairae has advantage on saving throws against powers, spells, and other supernatural effects.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Supernatural Resistance",
+                      "_id":  "AbcwcPVXHbDhrgVv"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eVairae is immune to effects that turn Undead.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Turn Immunity",
+                      "_id":  "YKIxNHqzs7icKPwD"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eVairae uses Glare of Undeath and makes four attacks using Conflagration, Immortal Pain, Magic Drain, or a combination of them.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "nHL1hYuOPO2pe7ZW"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Conflagration (4th-Level Spell)",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "10d6",
+                                                                      "fire"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Spell Attack: +14 to hit, range 150 ft., one target. Hit: 35 (10d6) fire damage, and if the target takes both an action and a bonus action on their next turn, they take an extra 17 (5d6) fire damage at the end of that turn.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "14",
+                                     "actionType":  "rsak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  150
+                                               }
+                                 },
+                      "_id":  "FFj6Sh2PVjYq5ffs"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Immortal Pain (4th-Level Spell)",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "8d6",
+                                                                      "psychic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Spell Attack: +14 to hit, reach 5 ft. or range 90 ft., one creature. Hit: 28 (8d6) psychic damage, and the target is afflicted with pain. While afflicted in this way, the creature\u0027s attacks deal half damage. After each attack the afflicted creature makes against an enemy, the afflicted creature can make a DC 22 Constitution saving throw, ending the effect on a success. A cure ailment power, a lesser restoration spell, or a similar supernatural effect also ends the effect.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "14",
+                                     "actionType":  "rsak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  90
+                                               }
+                                 },
+                      "_id":  "9BeRDjvpG57HQkG5"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/sword.svg",
+                      "name":  "Magic Drain (4th-Level Spell)",
+                      "system":  {
+                                     "ability":  "",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d12",
+                                                                      "necrotic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Spell Attack: +14 to hit, reach 5 ft. or range 60 ft., one creature. Hit: 26 (4d12) necrotic damage. If the target is currently affected by any spells not cast by Vairae, the target must succeed on a DC 22 Wisdom saving throw or those effects end for the target.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "14",
+                                     "actionType":  "rsak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  60
+                                               }
+                                 },
+                      "_id":  "XRfQ0NF7p3t8YEze"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eVairae glares at one creature they can see within 60 feet of them. The target must succeed on a DC 22 Wisdom saving throw or be compelled to hug themself tightly as protection against an unbearably cruel world. A creature hugging themself in this way is restrained for 1 minute (save ends at end of turn). A creature the target can hear and understand can use an action to make a DC 22 Charisma (Persuasion) check, ending the effect on a success.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "save":  {
+                                                  "dc":  22,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Glare of Undeath",
+                      "_id":  "ZL4hKtvfL7FkHKUH"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/book.svg",
+                      "name":  "Machinations of Bone",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eEach enemy within 30 feet of a point Vairae can see within 150 feet of them must make a DC 22 Strength saving throw. On a failed save, a target\u0027s innards fly from their body and they take 54 (12d8) piercing damage, fall prone, and can\u0027t stand up until they receive supernatural healing.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  2,
+                                                  "max":  "2"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "12d8",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  22,
+                                                  "ability":  "str",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "td54vQl2g7Rp5SWn"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Necrotic Form (3rd-Level Spell)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eVairae enters a shadow form and can move up to their speed. While in this form, Vairae is immune to bludgeoning, piercing, and slashing damage and the grappled and restrained conditions, and they can move through a space as narrow as 1 inch without squeezing. Vairae reverts to their true form at the end of their turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "7SvhvMrFGmmN8iAx"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Baleful Teleport (6th-Level Spell)",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen a creature Vairae can see within 120 feet of them targets Vairae with an attack, Vairae utters a word of arcane power. The creature must succeed on a DC 22 Charisma saving throw or be teleported up to 60 feet to an unoccupied space Vairae can see, and if Vairae is no longer a valid target for the triggering attack, the attacker must choose a new target or the attack misses.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "save":  {
+                                                  "dc":  22,
+                                                  "ability":  "cha",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "Mk3helcWSTMNqWYy"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 1: Cages of Wasting",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eA cage of black energy springs forth around each enemy within 60 feet of Vairae. Each target must make a DC 22 Dexterity saving throw. On a failed save, a target takes 27 (5d10) necrotic damage and is restrained in the cage for 1 minute or until Vairae is destroyed (save ends at end of turn). On a successful save, a target takes half as much damage and isn\u0027t restrained. If a restrained creature teleports out of their cage, the effect ends for them.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "5d10",
+                                                                      "necrotic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  22,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "Q6tPjyC1tjTNOQqn"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 2: My Magic Alone",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eVairae unleashes a wave of canceling magic. Each creature within 60 feet of Vairae must make a DC 22 Wisdom saving throw. On a failed save, a target can\u0027t benefit from magic items or cast spells of 4th level or higher until the end of Vairae\u0027s next turn.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "save":  {
+                                                  "dc":  22,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "c5Tp7PEE2ze4zlOG"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 3: Necrostorm",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eVairae fires black bolts of magic from their body. Each creature within 60 feet of them must make a DC 22 Dexterity saving throw, taking 78 (12d12) necrotic damage on a failed save, or half as much damage on a successful one. The spirit of a Humanoid killed by this damage rises at the start of Vairae\u0027s next turn as a wraith who permanently follows Vairae\u0027s verbal commands.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "12d12",
+                                                                      "necrotic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  22,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "EpSd3ExmdubzAeXn"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "High Mage Vairae",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/high-mage-vairae.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Solo",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

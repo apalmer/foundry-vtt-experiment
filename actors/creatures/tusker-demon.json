@@ -1,0 +1,331 @@
+﻿{
+    "_id":  "VGCweqnBIebC9umI",
+    "name":  "Tusker Demon",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/tusker-demon.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  22
+                                             },
+                                     "dex":  {
+                                                 "value":  6
+                                             },
+                                     "con":  {
+                                                 "value":  20
+                                             },
+                                     "int":  {
+                                                 "value":  5
+                                             },
+                                     "wis":  {
+                                                 "value":  10
+                                             },
+                                     "cha":  {
+                                                 "value":  8
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  13,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  138,
+                                                 "max":  138,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "12d12 + 60"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  40,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  60,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  7,
+                                   "xp":  {
+                                              "value":  2900
+                                          },
+                                   "type":  {
+                                                "value":  "fiend",
+                                                "subtype":  "Demon, Category 2",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Typically Chaotic Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "huge",
+                                  "di":  {
+                                             "value":  "poison"
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "bludgeoning",
+                                                           "piercing",
+                                                           "slashing"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "blinded",
+                                                           "deafened",
+                                                           "poisoned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  "understands abyssal but can\u0027t speak",
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the demon\u0027s soul count is 0, they have advantage on attack rolls, disadvantage on saving throws, and their Intelligence score becomes 3 (-4). Additionally, the demon must use their movement on each of their turns to move as close as possible to the nearest creature they can sense with their soulsight, and then if they are able, they must use their action to attack and attempt to kill that creature. The demon can\u0027t act with any other purpose until they add 1 to their soul count.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Lethe",
+                      "_id":  "H0Fmh0gBgT0zSnly"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the demon reduces a creature who isn\u0027t a Construct or an Undead to 0 hit points or deals damage to a dying creature, the creature must make a DC 11 Wisdom saving throw. On a failed save, the demon consumes the creature\u0027s soul and adds 1 to the demon\u0027s soul count. A creature whose soul is consumed in this way immediately dies, and they can\u0027t be restored to life by any means short of a wish spell.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Soul Devourer",
+                      "_id":  "djlsjprvD1v6Qfg5"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe demon can move through the spaces of Large or smaller creatures as if they were difficult terrain. When the demon enters a creature\u0027s space for the first time on the demon\u0027s turn, the demon can make a Stomp attack against that creature (no action required). Additionally, the demon can end their turn in the space of a prone creature who is Medium or smaller, and that creature can\u0027t stand up while in the demon\u0027s space.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Trample",
+                      "_id":  "iax1wcc2EMfasFrN"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d8 + 6",
+                                                                      "piercing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) piercing damage. The demon can burn 1 soul to push the target up to 40 feet directly away from the demon.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Gore",
+                      "_id":  "RdXrrROe5DXdu8oI"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 6",
+                                                                      "bludgeoning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage, and if the target is a Medium or smaller creature, they must succeed on a DC 17 Strength saving throw or be knocked prone.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  5
+                                               }
+                                 },
+                      "name":  "Stomp",
+                      "_id":  "X1fbSNGUxegYUCwB"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d6 + 6",
+                                                                      "slashing"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 16 (3d6 + 6) slashing damage, and if the target is a creature, they must succeed on a DC 17 Strength saving throw or be pulled up to 10 feet toward the demon.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "9",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  15
+                                               }
+                                 },
+                      "name":  "Tongue",
+                      "_id":  "cbmUYch2lE3IIO0z"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Vengeful Charge (Costs 1 Soul)",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen an enemy within 40 feet of the demon deals damage to the demon, the demon can move up to their speed straight toward them. If the demon ends this movement within 10 feet of the enemy, the demon can make a Gore attack against them.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "nwmeT4BNt5LG2WKI"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Tusker Demon",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/tusker-demon.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  3,
+                           "height":  3,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Skirmisher",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

@@ -1,0 +1,378 @@
+﻿{
+    "_id":  "DQGOX5ylWpXBUbVL",
+    "name":  "Arcane Amalgam",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/arcane-amalgam.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  1
+                                             },
+                                     "dex":  {
+                                                 "value":  16
+                                             },
+                                     "con":  {
+                                                 "value":  18
+                                             },
+                                     "int":  {
+                                                 "value":  2
+                                             },
+                                     "wis":  {
+                                                 "value":  12
+                                             },
+                                     "cha":  {
+                                                 "value":  2
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  14,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  95,
+                                                 "max":  95,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "10d10 + 40"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  20,
+                                                       "fly":  0,
+                                                       "swim":  20,
+                                                       "climb":  20,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  120,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  6,
+                                   "xp":  {
+                                              "value":  2300
+                                          },
+                                   "type":  {
+                                                "value":  "swarm of tiny oozes",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Unaligned",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "lg",
+                                  "di":  {
+                                             "value":  "poison"
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "acid",
+                                                           "bludgeoning",
+                                                           "piercing",
+                                                           "slashing"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "blinded",
+                                                           "charmed",
+                                                           "deafened",
+                                                           "exhaustion",
+                                                           "frightened",
+                                                           "grappled",
+                                                           "paralyzed",
+                                                           "poisoned",
+                                                           "prone",
+                                                           "restrained",
+                                                           "stunned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  "--",
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhile in the area of an antimagic field spell, the amalgam\u0027s speed is halved and they can\u0027t use reactions. Additionally, if targeted by the dispel magic spell, the amalgam must succeed on a Wisdom saving throw against the caster\u0027s spell save DC or be unable to use reactions for 1 minute.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Antimagic Lethargy",
+                      "_id":  "CpGYCN8teHXV8lpP"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIf the amalgam comes within 30 feet of a creature or object affected by magic, the amalgam can unerringly track that target for the next 24 hours.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Arcane Tracker",
+                      "_id":  "9ZX1bUBPUFfeA83N"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eAfter the amalgam is hit with an attack using a mundane melee weapon, that weapon becomes charged with vibrating energy. For the next minute, the weapon gains a cumulative +1 bonus to damage rolls. If this bonus increases to +3, the weapon explodes and is destroyed, and the creature wielding it takes 10 (3d6) force damage.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Explosive Enhancement",
+                      "_id":  "oaoWBkS0JzQMYwmb"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhile the amalgam remains motionless, it is indistinguishable from a puddle of muck.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "False Appearance",
+                      "_id":  "PVgkiKALg0YHRv15"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe amalgam can occupy another creature\u0027s space and vice versa, and the amalgam can move through a space as narrow as 1 inch wide without squeezing. The amalgam can\u0027t regain hit points or gain temporary hit points.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Swarm",
+                      "_id":  "02DQ3wnyqqcEPEOR"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe arcane amalgam makes two Bite attacks.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "93SR24mAxiARwI4W"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d6",
+                                                                      "acid"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +6 to hit, reach 0 ft., one target. Hit: 14 (4d6) acid damage, or 7 (2d6) acid damage if the amalgam has half their hit points or fewer.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "6",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  0
+                                               }
+                                 },
+                      "name":  "Bite",
+                      "_id":  "ruAKCXp5MtSH3PEz"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe unstable compounds that form the amalgam react violently to each other. Each creature within 10 feet of the amalgam must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) damage of a random type (roll a d6 for each creature): 1, acid; 2, cold; 3, fire; 4, force; 5, necrotic; 6, poison. On a successful save, a creature takes half as much damage.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "charges",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "save":  {
+                                                  "dc":  15,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Wild Surge (Recharge 5-6)",
+                      "_id":  "NVtHNJHtprG7gE6B"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Spell Reflection",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen the amalgam takes damage from a spell, they emit a burst of magical energy. Each creature within 10 feet of the amalgam must succeed on a DC 15 Dexterity saving throw or take 11 (2d10) damage of the type dealt to the amalgam by the triggering spell. If the spell dealt more than one type of damage, the amalgam chooses which type this reaction deals.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "save":  {
+                                                  "dc":  15,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "xTUCDiNQpFwfOM0X"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Arcane Amalgam",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/arcane-amalgam.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  2,
+                           "height":  2,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Controller",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

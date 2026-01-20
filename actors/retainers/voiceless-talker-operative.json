@@ -1,0 +1,189 @@
+﻿{
+    "_id":  "n1WeS5nZ5Y9LlykI",
+    "name":  "Voiceless Talker Operative",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/voiceless-talker-operative.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  10
+                                             },
+                                     "dex":  {
+                                                 "value":  12
+                                             },
+                                     "con":  {
+                                                 "value":  10
+                                             },
+                                     "int":  {
+                                                 "value":  16
+                                             },
+                                     "wis":  {
+                                                 "value":  10
+                                             },
+                                     "cha":  {
+                                                 "value":  12
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  15,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  10,
+                                                 "max":  10,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "number of d8 Hit Dice equal to their level"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  30,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  120,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  0,
+                                   "xp":  {
+                                              "value":  0
+                                          },
+                                   "type":  {
+                                                "value":  "aberration",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Any Alignment",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  "bludgeoning"
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "deep speech",
+                                                                  "undercommon",
+                                                                  "telepathy 60 ft."
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "arc":  {
+                                              "value":  1
+                                          },
+                                  "dec":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eRanged Weapon Attack: +3 plus PB to hit, range 80/320 ft., one target. Hit: 1d10 plus PB force damage. Beginning at 7th level, the operative can make this attack twice, instead of once, when they take the Attack action on their turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Signature Attack (Psionic Pistol)",
+                      "_id":  "zVR3XKkafi4Th3hf"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/upgrade.svg",
+                      "name":  "3rd Level: Phasing Charge. When the operative hits a creature with a signature attack, they can attempt to teleport the target. The target must succeed on a DC 10 plus PB Wisdom saving throw or be teleported up to 30 feet to an unoccupied space on the ground that the operative can see.\n\n5th Level: Telekinetic Repulsion. As an action, the operative releases a powerful pulse of energy. Each enemy within 10 feet of the operative must make a DC 10 plus PB Strength saving throw. On a failed save, a creature takes PBd6 force damage and is pushed up to 10 feet directly away from the operative. On a successful save, a creature takes half as much damage and isn\u0027t pushed.\n\n7th Level: Memory Thief (3/Day; 4th-Order Power; Concentration). The operative psionically plunders the mind of a creature they can see within 30 feet of them. The target must make a DC 10 plus PB Intelligence saving throw. On a failed save, the target takes 22 (4d10) psychic damage, and for 1 minute, the target\u0027s proficiency bonus is cumulatively lowered by 1 and the operative gains a cumulative +1 bonus to attack and damage rolls and to each feature\u0027s save DC. On a successful save, a target takes half as much damage and doesn\u0027t have their proficiency bonus reduced.",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "day",
+                                                  "value":  3,
+                                                  "max":  "3"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eA creature whose proficiency bonus drops to 0 can\u0027t form new thoughts or speak, and they have disadvantage on ability checks, attack rolls, and saving throws\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "3M8tmOABJ70oYqbx"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Voiceless Talker Operative",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/voiceless-talker-operative.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "",
+                                              "category":  "Retainer",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

@@ -1,0 +1,306 @@
+﻿{
+    "_id":  "jefk8BKPSG0fz7LI",
+    "name":  "Jutkarr Flintfingers",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/jutkarr-flintfingers.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  13
+                                             },
+                                     "dex":  {
+                                                 "value":  15
+                                             },
+                                     "con":  {
+                                                 "value":  14
+                                             },
+                                     "int":  {
+                                                 "value":  22
+                                             },
+                                     "wis":  {
+                                                 "value":  16
+                                             },
+                                     "cha":  {
+                                                 "value":  7
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  16,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  91,
+                                                 "max":  91,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "14d8 + 28"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  25,
+                                                       "fly":  0,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  60,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  0,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  5,
+                                   "xp":  {
+                                              "value":  1800
+                                          },
+                                   "type":  {
+                                                "value":  "humanoid",
+                                                "subtype":  "Dwarf",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Neutral Evil",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "med",
+                                  "di":  {
+                                             "value":  null
+                                         },
+                                  "dr":  {
+                                             "value":  [
+                                                           "poison",
+                                                           "psychic"
+                                                       ]
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  null
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "common",
+                                                                  "dwarvish",
+                                                                  "thieves\u0027 cant",
+                                                                  "telepathy 120 ft."
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "inv":  {
+                                              "value":  1
+                                          },
+                                  "his":  {
+                                              "value":  1
+                                          },
+                                  "rel":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eJutkarr can communicate telepathically with any Amethyst Knife boss regardless of distance, provided they are on the same plane of existence.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Mind Link",
+                      "_id":  "csWqw1IMfauz4bar"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eJutkarr has advantage on saving throws he makes to avoid or end the poisoned condition on himself.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Poison Resistant",
+                      "_id":  "OLcstfCKjgif9IUM"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eJutkarr makes two Deserved Transfer attacks.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "PlKqJErgdkovlYBJ"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Power Attack: +9 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 13 (2d6 + 6) psychic damage, and one creature Jutkarr can see within 30 feet of him gains temporary hit points equal to half the damage dealt.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 6",
+                                                                      "psychic"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "name":  "Deserved Transfer (2nd-Order Power)",
+                      "_id":  "swQ5r0sWT4ThxY7m"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eJutkarr touches a willing creature and gives them immunity to one of the following conditions for 1 hour: blinded, charmed, dazed, deafened, frightened, paralyzed, petrified, poisoned, or stunned. Additionally, if the target suffers from the chosen condition, that condition is suppressed for 1 hour.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Psionic Resilience (2/Day; 4th-Order Power)",
+                      "_id":  "fcfWAhyLlffvGwGl"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Shared Condition",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen Jutkarr is blinded, charmed, dazed, deafened, frightened, paralyzed, or stunned, he chooses a willing Amethyst Knife boss within 60 feet of him who doesn\u0027t already have the condition or is immune to it. The chosen creature then gains the condition for the duration, and Jutkarr loses the condition. He can use this reaction even while incapacitated.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "_id":  "VOVqNeILRvPA0Rhp"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Jutkarr Flintfingers",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/jutkarr-flintfingers.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Support",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

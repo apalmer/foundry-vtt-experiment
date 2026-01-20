@@ -1,0 +1,524 @@
+﻿{
+    "_id":  "qyUOj8xc2si9MC8t",
+    "name":  "Xaantikorijek",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/xaantikorijek.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  28
+                                             },
+                                     "dex":  {
+                                                 "value":  10
+                                             },
+                                     "con":  {
+                                                 "value":  27
+                                             },
+                                     "int":  {
+                                                 "value":  24
+                                             },
+                                     "wis":  {
+                                                 "value":  16
+                                             },
+                                     "cha":  {
+                                                 "value":  20
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  20,
+                                                 "calc":  "default",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  518,
+                                                 "max":  518,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "28d20 + 224"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  40,
+                                                       "fly":  80,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  40,
+                                                       "hover":  false,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  120,
+                                                     "tremorsense":  0,
+                                                     "truesight":  60,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  23,
+                                   "xp":  {
+                                              "value":  50000
+                                          },
+                                   "type":  {
+                                                "value":  "dragon",
+                                                "subtype":  "",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Neutral",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "grg",
+                                  "di":  {
+                                             "value":  [
+                                                           "lightning",
+                                                           "thunder"
+                                                       ]
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "charmed",
+                                                           "frightened",
+                                                           "paralyzed",
+                                                           "petrified",
+                                                           "stunned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  "all",
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "nat":  {
+                                              "value":  1
+                                          },
+                                  "his":  {
+                                              "value":  1
+                                          },
+                                  "arc":  {
+                                              "value":  1
+                                          },
+                                  "rel":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen Xaantikorijek fails a saving throw, he can succeed instead. When he does, his sight, blindsight, and truesight are reduced to a range of 30 feet until the start of his next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Static Shield (3/Day)",
+                      "_id":  "NWJrVWXNDIC3VB3y"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eLightning and thunder damage dealt by Xaantikorijek ignore damage resistance.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Storm of the Gods",
+                      "_id":  "r5sbnTXE45kI7667"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXaantikorijek makes one Bite attack and two Claw attacks.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "UaydWRiJ3fgPg0Bm"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d10 + 9",
+                                                                      "piercing"
+                                                                  ],
+                                                                  [
+                                                                      "1d10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 5 (1d10) lightning damage, and Xaantikorijek can move the target up to 20 feet in any direction.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "16",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  15
+                                               }
+                                 },
+                      "name":  "Bite",
+                      "_id":  "80OUH17lVgvzUWZa"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "str",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d6 + 9",
+                                                                      "slashing"
+                                                                  ],
+                                                                  [
+                                                                      "2d6",
+                                                                      "thunder"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage plus 7 (2d6) thunder damage, and the target is knocked prone.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "16",
+                                     "actionType":  "mwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  10
+                                               }
+                                 },
+                      "name":  "Claw",
+                      "_id":  "CEiIEpT5wGP5EXEp"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXaantikorijek exhales lightning in a line that is 120 feet long and 30 feet wide. Each creature in that area must make a DC 23 Dexterity saving throw. On a failed save, a creature takes 66 (12d10) lightning damage and has disadvantage on saving throws until the end of Xaantikorijek\u0027s next turn. On a successful save, a creature takes half as much damage and suffers no other effect.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "charges",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "12d10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  23,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Fulminating Breath (Recharge 5-6)",
+                      "_id":  "TeALzwwCjvFsCLT5"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Lightning Discharge",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXaantikorijek makes one Bite attack. On a hit, Xaantikorijek\u0027s teeth spark with energy, dealing an extra 11 (2d10) lightning damage to the target and to one other enemy within 60 feet of the target.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "2d10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "_id":  "zrw18AOPHNhgtvNN"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Voice of Negation",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen a creature Xaantikorijek can see within 60 feet of him uses an action or bonus action to cast a spell, Xaantikorijek speaks an arcane word, forcing the creature to make a DC 23 saving throw using their spellcasting ability. On a failed save, the target takes 16 (3d10) thunder damage and is unable to cast spells until the end of their turn, but the spell slot is not expended and the creature\u0027s action is not lost.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d10",
+                                                                      "thunder"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "_id":  "YhJZDijGXZ99Uc1q"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 1: Voice of Reverence",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXaantikorijek speaks an ancient word of authority into the mind of each creature of his choice within 60 feet of him. Each target must succeed on a DC 20 Wisdom saving throw or fall prone. A creature who falls prone in this way takes 22 (4d10) thunder damage if they stand up before the end of Xaantikorijek\u0027s next turn.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d10",
+                                                                      "thunder"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  20,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "TFIOUVKpCDOf07XM"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 2: Fulguration",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXaantikorijek sheds his physical form to become a being of lightning until the end of his next turn. While in this form, Xaantikorijek gains the following benefits: - He is resistant to all damage. - He can move through a space as narrow as 1 inch wide without squeezing. - His movement doesn\u0027t provoke opportunity attacks. - He can move through any creature\u0027s space, and when he moves into a creature\u0027s space for the first time on a turn, that creature takes 16 (3d10) lightning damage.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "_id":  "r1iqAabaCv43UO7p"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 3: Voice of the Ages",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXaantikorijek recites an ancient lament that reverberates in nearby souls. Each enemy within 60 feet of Xaantikorijek who can hear him must make a DC 20 Wisdom saving throw. On a failed save, a creature takes 44 (8d10) psychic damage, falls prone, and is unable to stand up for 1 minute as they weep uncontrollably (save ends at end of turn). On a successful save, a creature takes half as much damage and suffers no other effect.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "8d10",
+                                                                      "psychic"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  20,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "ydeHQ3p3reAmOCss"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Xaantikorijek",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/xaantikorijek.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  4,
+                           "height":  4,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Solo",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

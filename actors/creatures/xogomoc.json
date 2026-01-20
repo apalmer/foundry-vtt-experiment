@@ -1,0 +1,629 @@
+﻿{
+    "_id":  "1Wi1D4LGp1guloXW",
+    "name":  "Xogomoc",
+    "type":  "npc",
+    "img":  "modules/flee-mortals-custom/tokens/xogomoc.webp",
+    "system":  {
+                   "abilities":  {
+                                     "str":  {
+                                                 "value":  20
+                                             },
+                                     "dex":  {
+                                                 "value":  30
+                                             },
+                                     "con":  {
+                                                 "value":  30
+                                             },
+                                     "int":  {
+                                                 "value":  22
+                                             },
+                                     "wis":  {
+                                                 "value":  26
+                                             },
+                                     "cha":  {
+                                                 "value":  16
+                                             }
+                                 },
+                   "attributes":  {
+                                      "ac":  {
+                                                 "flat":  20,
+                                                 "calc":  "natural",
+                                                 "formula":  ""
+                                             },
+                                      "hp":  {
+                                                 "value":  574,
+                                                 "max":  574,
+                                                 "temp":  0,
+                                                 "tempmax":  0,
+                                                 "formula":  "28d20 + 280"
+                                             },
+                                      "init":  {
+                                                   "ability":  ""
+                                               },
+                                      "movement":  {
+                                                       "walk":  0,
+                                                       "fly":  90,
+                                                       "swim":  0,
+                                                       "climb":  0,
+                                                       "burrow":  0,
+                                                       "hover":  true,
+                                                       "units":  "ft"
+                                                   },
+                                      "senses":  {
+                                                     "darkvision":  0,
+                                                     "blindsight":  0,
+                                                     "tremorsense":  0,
+                                                     "truesight":  300,
+                                                     "units":  "ft",
+                                                     "special":  ""
+                                                 }
+                                  },
+                   "details":  {
+                                   "cr":  30,
+                                   "xp":  {
+                                              "value":  155000
+                                          },
+                                   "type":  {
+                                                "value":  "elemental",
+                                                "subtype":  "Titan",
+                                                "custom":  ""
+                                            },
+                                   "alignment":  "Neutral",
+                                   "source":  {
+                                                  "book":  "Flee, Mortals!"
+                                              }
+                               },
+                   "traits":  {
+                                  "size":  "grg",
+                                  "di":  {
+                                             "value":  [
+                                                           "bludgeoning",
+                                                           "lightning",
+                                                           "piercing",
+                                                           "poison",
+                                                           "slashing",
+                                                           "thunder"
+                                                       ]
+                                         },
+                                  "dr":  {
+                                             "value":  null
+                                         },
+                                  "dv":  {
+                                             "value":  null
+                                         },
+                                  "ci":  {
+                                             "value":  [
+                                                           "blinded",
+                                                           "charmed",
+                                                           "frightened",
+                                                           "grappled",
+                                                           "paralyzed",
+                                                           "petrified",
+                                                           "poisoned",
+                                                           "restrained",
+                                                           "stunned"
+                                                       ]
+                                         },
+                                  "languages":  {
+                                                    "value":  [
+                                                                  "understands all languages but can\u0027t speak",
+                                                                  "telepathy 150 ft."
+                                                              ],
+                                                    "custom":  ""
+                                                }
+                              },
+                   "skills":  {
+                                  "per":  {
+                                              "value":  1
+                                          },
+                                  "his":  {
+                                              "value":  1
+                                          },
+                                  "arc":  {
+                                              "value":  1
+                                          }
+                              }
+               },
+    "items":  [
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc can move through a space as narrow as 1 inch wide without squeezing.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Amorphous",
+                      "_id":  "AK6kVGQ3zQz3mUwP"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen Xogomoc drops to 0 hit points or dies, all conditions and other effects end for him. He teleports back to the place where he slumbers, transforms into Goxomoc with all his hit points, and falls unconscious.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Discorporation",
+                      "_id":  "9YSnDScKykkUFacZ"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eIf Xogomoc fails a saving throw, he can choose to succeed instead, and his Lightning Aura doesn\u0027t function until the end of his next turn.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Disruptive Resistance (3/Day)",
+                      "_id":  "6oY1XC5oSStJJzAV"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eA creature who starts their turn within 60 feet of Xogomoc must make a DC 25 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Lightning Aura",
+                      "_id":  "K6luD9CBxiFQoP5L"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eLightning and thunder damage dealt by Xogomoc ignore damage resistance.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Power of the Storm",
+                      "_id":  "p5HxhAwvUjXRrVSt"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc deals double damage to objects and structures.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Siege Monster",
+                      "_id":  "bgNKFTXNPA2g3sNn"
+                  },
+                  {
+                      "img":  "icons/svg/aura.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "activation":  {
+                                                        "type":  ""
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc has advantage on saving throws against powers, spells, and other supernatural effects.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "type":  {
+                                                  "value":  "monster",
+                                                  "subtype":  ""
+                                              }
+                                 },
+                      "name":  "Supernatural Resistance",
+                      "_id":  "VvSpgw4tFRQIzsgp"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc makes two Lightning Strike attacks.\u003c/p\u003e"
+                                                     },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                }
+                                 },
+                      "name":  "Multiattack",
+                      "_id":  "a4JEzVSgcDh3aks3"
+                  },
+                  {
+                      "img":  "icons/svg/sword.svg",
+                      "type":  "weapon",
+                      "system":  {
+                                     "ability":  "dex",
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d12 + 10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eMelee or Ranged Weapon Attack: +19 to hit, reach 15 ft. or range 600 ft., one target. Hit: 29 (3d12 + 10) lightning damage, and another target within 30 feet of the first must succeed on a DC 27 Dexterity saving throw or take the same damage.\u003c/p\u003e"
+                                                     },
+                                     "target":  {
+                                                    "value":  1,
+                                                    "type":  "creature"
+                                                },
+                                     "attackBonus":  "19",
+                                     "actionType":  "rwak",
+                                     "range":  {
+                                                   "units":  "ft",
+                                                   "long":  null,
+                                                   "value":  600
+                                               }
+                                 },
+                      "name":  "Lightning Strike",
+                      "_id":  "cIuWf8l6lULXbkuX"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc moves up to his speed without provoking opportunity attacks. During this move, he can move through the spaces of other creatures, and it doesn\u0027t count as difficult terrain. The first time he moves through each creature\u0027s space, that creature takes 22 (4d10) lightning damage.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "name":  "Energy Flow",
+                      "_id":  "Lsye9EEnKSFaL8QQ"
+                  },
+                  {
+                      "img":  "icons/svg/book.svg",
+                      "type":  "feat",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc breathes lightning in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw. On a failed save, a creature takes 71 (11d12) lightning damage and can\u0027t take reactions until the end of their next turn. On a successful save, a creature takes half as much damage and suffers no other effect.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  "charges",
+                                                  "value":  1,
+                                                  "max":  "1"
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "action"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "11d12",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  27,
+                                                  "ability":  "dex",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "name":  "Lightning Breath (Recharge 5-6)",
+                      "_id":  "vrRT9JJ8LrBfpCXw"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/wing.svg",
+                      "name":  "Gone in a Flash",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc teleports, along with any creatures inside him (see Into the Storm), up to 30 feet to an unoccupied space he can see. Each creature within 10 feet of the space he left must make a DC 25 Constitution saving throw, taking 22 (4d10) thunder damage on a failed save, or half as much damage on a successful one.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "bonus"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d10",
+                                                                      "thunder"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  25,
+                                                  "ability":  "con",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "nrGYYDWLhnTbc5jQ"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/shield.svg",
+                      "name":  "Shock Cage",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "other",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhen a creature Xogomoc can see within 30 feet of him hits him with an attack, he encircles the attacker in bands of lightning. The creature takes 22 (4d10) lightning damage and is restrained until the end of their next turn.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "reaction"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "4d10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                }
+                                 },
+                      "_id":  "9W4SCnbysvl6fr2k"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 1: Thunderstruck",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc summons an awe-inspiring clap of thunder. Each creature within 120 feet of him who can hear him must succeed on a DC 25 Wisdom saving throw or be dazed for 1 minute (save ends at end of turn).\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "save":  {
+                                                  "dc":  25,
+                                                  "ability":  "wis",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "D3jkdTKtinAbttZb"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 2: Into the Storm",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc summons tempest winds that buffet each enemy he can see within 30 feet of him. Each target must make a DC 25 Strength saving throw. On a successful save, a creature takes 16 (3d10) lightning damage. On a failed save, a creature is drawn inside Xogomoc. While inside Xogomoc, a creature is restrained, moves with Xogomoc, has total cover against attacks and other effects outside Xogomoc, and takes 16 (3d10) lightning damage plus 16 (3d10) thunder damage at the start of each of their turns. A creature inside Xogomoc can use an action to make a DC 20 Strength (Athletics) or Dexterity (Acrobatics) check to move out of Xogomoc, entering an unoccupied space of their choice within 5 feet of Xogomoc on a success. If Xogomoc takes 60 or more damage on a single turn or is reduced to 0 hit points, each creature inside of Xogomoc is shunted out of him into an unoccupied space of their choice within 5 feet of Xogomoc.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "3d10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  25,
+                                                  "ability":  "str",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "KIsF8lc0hopUoM5n"
+                  },
+                  {
+                      "type":  "feat",
+                      "img":  "icons/svg/terror.svg",
+                      "name":  "Villain Action 3: Behold True Power",
+                      "system":  {
+                                     "source":  {
+                                                    "book":  "Flee, Mortals!"
+                                                },
+                                     "actionType":  "save",
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eXogomoc unleashes lighting and wind in a chaotic storm. Each enemy within 120 feet of him must make a DC 25 Strength saving throw. On a failed save, a creature takes 44 (8d10) lightning damage and is moved up to 60 feet in any direction. On a successful save, a creature takes half as much damage and isn\u0027t moved.\u003c/p\u003e"
+                                                     },
+                                     "uses":  {
+                                                  "recovery":  [
+
+                                                               ],
+                                                  "per":  null,
+                                                  "value":  null,
+                                                  "max":  ""
+                                              },
+                                     "activation":  {
+                                                        "cost":  1,
+                                                        "type":  "special"
+                                                    },
+                                     "damage":  {
+                                                    "parts":  [
+                                                                  [
+                                                                      "8d10",
+                                                                      "lightning"
+                                                                  ]
+                                                              ]
+                                                },
+                                     "save":  {
+                                                  "dc":  25,
+                                                  "ability":  "str",
+                                                  "scaling":  "flat"
+                                              }
+                                 },
+                      "_id":  "nlt4GXwySrpa0aJG"
+                  }
+              ],
+    "effects":  [
+
+                ],
+    "prototypeToken":  {
+                           "name":  "Xogomoc",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "texture":  {
+                                           "src":  "modules/flee-mortals-custom/tokens/xogomoc.webp",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "width":  4,
+                           "height":  4,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "attributes.hp"
+                                    },
+                           "sight":  {
+                                         "enabled":  true,
+                                         "range":  0
+                                     }
+                       },
+    "flags":  {
+                  "flee-mortals-custom":  {
+                                              "role":  "Solo",
+                                              "category":  "",
+                                              "source":  "Flee, Mortals!"
+                                          }
+              }
+}

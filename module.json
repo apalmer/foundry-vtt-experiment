@@ -1,0 +1,57 @@
+﻿{
+    "id":  "flee-mortals-custom",
+    "title":  "Flee, Mortals! (Custom Import)",
+    "description":  "339 creatures from MCDM\u0027s Flee, Mortals! monster book, custom imported.",
+    "version":  "1.0.0",
+    "compatibility":  {
+                          "minimum":  "13",
+                          "verified":  "13.351"
+                      },
+    "relationships":  {
+                          "systems":  [
+                                          {
+                                              "id":  "dnd5e",
+                                              "type":  "system",
+                                              "compatibility":  {
+                                                                    "minimum":  "5.0.0",
+                                                                    "verified":  "5.2.4"
+                                                                }
+                                          }
+                                      ]
+                      },
+    "authors":  [
+                    {
+                        "name":  "Custom Import"
+                    }
+                ],
+    "packs":  [
+                  {
+                      "name":  "creatures",
+                      "label":  "Flee, Mortals! Creatures",
+                      "path":  "packs/creatures",
+                      "type":  "Actor",
+                      "system":  "dnd5e",
+                      "flags":  {
+                                    "flee-mortals-custom":  {
+                                                                "types":  [
+                                                                              "npc"
+                                                                          ]
+                                                            }
+                                }
+                  },
+                  {
+                      "name":  "companions",
+                      "label":  "Flee, Mortals! Companions",
+                      "path":  "packs/companions",
+                      "type":  "Actor",
+                      "system":  "dnd5e"
+                  },
+                  {
+                      "name":  "retainers",
+                      "label":  "Flee, Mortals! Retainers",
+                      "path":  "packs/retainers",
+                      "type":  "Actor",
+                      "system":  "dnd5e"
+                  }
+              ]
+}
