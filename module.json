@@ -1,15 +1,19 @@
 {
-  "id": "beastiary",
-  "title": "Beastiary - An Example FVTT Module",
-  "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
-  "authors": [
-    {
-    "name": "apalmer"
-    }
-  ],
-  "version": "1.0.2",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  }
+    "id": "beastiary",
+    "title": "Beastiary - An Example FVTT Module",
+    "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+    "authors": [
+        {
+            "name": "apalmer"
+        }
+    ],
+    "version": "1.0.2",
+    "minimumCoreVersion": "13",
+    "compatibleCoreVersion": "13",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "manifest": "https://raw.githubusercontent.com/apalmer/foundry-vtt-experiment/refs/heads/main/module.json",
+    "download": "https://raw.githubusercontent.com/apalmer/foundry-vtt-experiment/refs/heads/main/beastiary.zip"
 }
