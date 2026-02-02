@@ -14,6 +14,14 @@
         "minimum": "13",
         "verified": "13"
     },
+    "esmodules": [
+        "scripts/module.mjs"
+    ],
+    "flags": {
+        "ultimate-beastiary": {
+            "actorsImported": false
+        }
+    },
     "manifest": "https://raw.githubusercontent.com/apalmer/foundry-vtt-experiment/refs/heads/main/module.json",
     "download": "https://raw.githubusercontent.com/apalmer/foundry-vtt-experiment/refs/heads/main/beastiary.zip"
 }
